@@ -1,0 +1,35 @@
+.input-container a {
+    text-decoration: underline;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+main {
+    background-color: var(--blue);
+}
+
+#form-container {
+    background-color: var(--secondary-color);
+}
+
+
+#form-container > p {
+    color: black;
+}
+
+#submit-container {
+    background: var(--secondary-color);
+}
+
+#submit-container button {
+    background: var(--blue);
+}
+
+.input-container > label small {
+    color: white;
+}
+
+.checkbox-container input:not(:checked) + label {
+    color: white;
+}

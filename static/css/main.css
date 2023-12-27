@@ -1,0 +1,457 @@
+/* HEADERS */
+#simple-header {
+    direction: ltr;
+    padding: 10px;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+
+#simple-header .icon {
+    background: #ffffff75;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+#simple-header .icon.active {
+    background: #fff;
+}
+
+#simple-header .icon#log-out {
+    background: var(--red);
+}
+
+/* ICONS */
+.icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: var(--tertiary-color);
+    border-radius: 10px;
+    margin: 0;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.info-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+}
+
+.info-icon img {
+    width: 20px;
+    height: 20px;
+    transform: scaleX(-1);
+}
+
+/* MESSAGES */
+#messages {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    max-height: 100vh;
+    z-index: 2;
+    overflow: auto;
+}
+
+#messages .message {
+    background: rgba(256, 256, 256, 0.95);
+    border-radius: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+#messages .icon-container {
+    display: inline-block;
+    width: 60px;
+    vertical-align: top;
+}
+
+#messages .message-container {
+    display: inline-block;
+    width: calc(100% - 70px);
+}
+
+#messages .icon {
+    margin: 5px;
+}
+
+#messages .title {
+    font-family: Pinar !important;
+    margin: 5px 0;
+}
+
+#messages .detail {
+    margin: 0;
+}
+
+.message.success .icon {
+    background: var(--green);    
+}
+
+.message.fail .icon {
+    background: var(--red);
+}
+
+.message.warning .icon {
+    background: var(--yellow);
+}
+
+.message.info .icon {
+    background: var(--blue);
+}
+
+.message.success .title {
+    color: var(--green);    
+}
+
+.message.fail .title {
+    color: var(--red);
+}
+
+.message.warning .title {
+    color: var(--yellow);
+}
+
+.message.info .title {
+    color: var(--blue);
+}
+
+/* SLIDE SHOW */
+.slide-show {
+    overflow: auto;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.slide-show .slide {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+/* FOOTER */
+footer {
+    background: var(--primary-color);
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+#up-arrow-container {
+    margin: 0;
+    display: block;
+    text-align: left;
+}
+
+#up-arrow-container img {
+    background: var(--secondary-color);
+    border-radius: 10px;
+}
+
+/* ANIMATION */
+.icon:not(.profile-picture):hover {
+    transform: scale(1.15)
+}
+
+#messages .message:hover {
+    transform: scale(1.03);
+}
+
+/* ADD DELAYS */
+.icon:not(.profile-picture), #messages .message {
+    transition: var(--animation-delay);
+}
+
+/* FORMS */
+.input-container {
+    text-align: right;
+    display: inline-block;
+    width: 90%;
+    margin: 10px;
+    margin-right: 0;
+    position: relative;
+}
+
+.input-container > label {
+    display: block;
+    font-family: Pinar !important;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: var(--tertiary-color);
+}
+
+.input-container > label small {
+    margin-right: 10px;
+    color: var(--gray);
+    font-family: Estedad !important;
+}
+
+.input-container input, .input-container textarea  {
+    padding: 10px;
+    width: calc(100% - 20px);
+    border: none;
+    border-radius: 10px;
+    background: rgba(256, 256, 256, 0.5);
+}
+
+.input-container textarea {
+    height: 120px;
+    font-family: Estedad !important;
+}
+
+.input-container input.has-error {
+    outline: 2px solid var(--red);
+}
+
+.input-container p.file-error {
+    margin: 1px;
+    color: var(--red);
+}
+
+.input-container input[type=email],
+.input-container input[type=tel],
+.input-container input[type=number] {
+    direction: ltr;
+    text-align: right;
+}
+
+/* SUGGESTIONS */
+.suggestions p {
+    text-align: center;
+    color: black;
+}
+
+.suggestions {
+    display: none;
+    position:absolute;
+    top: 65px;
+    z-index: 2;
+    background: var(--blue);
+    color: white;
+    width: calc(100% - 20px);
+    padding: 0;
+    list-style: none;
+    border-radius: 10px;
+    box-shadow: 0 0 0.7rem #ddd;
+}
+
+.suggestions li {
+    margin: 5px 10px;
+    cursor: pointer;
+    opacity: 0.8;
+    padding: 5px;
+}
+
+
+.checkbox-container {
+    display: inline-block;
+    margin: 0 10px; 
+}
+
+.checkbox-container input {
+    width: fit-content;
+}
+
+.checkbox-container input:not(:checked) + label {
+    color: var(--gray)
+}
+
+
+/* Sources */
+.source {
+    width: 90%;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 10px;
+    padding: 10px 2%;
+    background-image: url('../img/svg/books-bg-white.svg');
+    background-size: 400px;
+    background-color: #ccc;
+    box-shadow: 0 0 0.7rem #ddd;
+}
+
+.sources .source >  div {
+    display: inline-block;
+}
+
+.sources .source .details {
+    width: 64%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.sources .source .details h3 {
+    margin: 8px 0;
+    color: black;
+
+}
+
+
+.sources .source .details h4 {
+    margin: 0;
+}
+
+.sources .source .ctas {
+    width: 34%;
+}
+
+.source .ctas a {
+    display: block;
+    margin: 5px 0;
+    border-radius: 10px;
+    padding: 8px 0;
+}
+
+
+.source .ctas a:first-child {
+    background: var(--secondary-color);
+    color: white;
+}
+
+.source .ctas a:nth-child(2) {
+    background: var(--yellow);
+    color: white;
+}
+
+.source .ctas a:nth-child(3) {
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+/* Modals */
+#modals {
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+}
+
+.modal {
+    position: relative;
+    background: purple;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 10%;
+    box-shadow: rgba(255, 255, 255, 0.3) 0px -19px 38px, rgba(255, 255, 255, 0.22) 0px -15px 12px;
+    display: none;
+}
+
+.modal header .icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: var(--red);
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.modal header {
+    padding-bottom: 10px;
+    width: 70%;
+    display: inline-block;
+    border-bottom: 1px dashed;
+}
+
+.modal header h4 {
+    margin: 0;
+    color: white;
+    font-size: 20px;
+}
+
+.modal label {
+    color: #fff;
+}
+
+.modal input[type=radio] {
+    display:none;
+}
+
+.modal .stars > div {
+    display: inline-block;
+    margin: auto 10px;
+}
+
+.modal .stars label {
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.modal .stars span {
+    position: absolute;
+    font-family: 'Pinar';
+    right: 16px;
+    top: 6px;
+}
+
+.modal .stars img {
+    vertical-align: baseline;
+    width:40px;
+    height:40px;
+    display: inline-block;
+}
+
+.modal .stars label.active span {
+    color: yellow;
+}
+
+.modal .stars label.active img {
+    filter: drop-shadow(1px 1px 1px yellow);
+}
+
+.modal label small, .modal textarea::placeholder {
+    color: black;
+}
+
+.modal textarea::-moz-placeholder  {
+    color: black;
+}
+
+.modal .ctas {
+    margin-top: 50px;
+}
+
+.modal .ctas button {
+    width: 30%;
+    max-width: 150px;
+    border: none;
+    padding: 5px 1px;
+    border-radius: 10px;
+    margin: 0 1%;
+    cursor: pointer;
+    transition: var(--animation-delay);
+    
+}
+
+.modal .ctas button:hover {
+    transform: scale(1.1);
+}
+
+.modal button.confirm {
+    background: var(--green);
+    color: white;
+}
+
+.modal button.cancel {
+    background: var(--gray);
+    color: white;
+}

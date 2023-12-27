@@ -1,0 +1,378 @@
+/* SETTING */
+main {
+    text-align: center;
+    background-color: var(--primary-color);
+    background-image: url("../img/svg/books-bg-white.svg");
+    background-attachment: fixed;
+    background-size: 350px;
+    padding-bottom: 50px;
+}
+
+/* INFO SECTION */
+#info {
+    padding-top: 40px;
+    margin: 20px;
+    margin-top: 0;
+    text-align: right;
+}
+
+#title {
+    margin: 0;
+    font-size: 20px;
+}
+
+#teacher {
+    margin: 0px;
+    font-size: 18px;
+    color: black;
+}
+
+#preview {
+    display: inline-block;
+    margin: 0 calc(50% - 130px);
+    width: 250px;
+    position: relative;
+}
+
+#source {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 0.7rem #000;
+
+}
+
+#preview a {
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    box-shadow: 0 0 0.7rem #000;
+}
+
+
+#summary-cart {
+    display: inline-block;
+    width: 90%;
+    max-width: 400px;
+    margin: 20px 0;
+    box-shadow: 0 0 2rem #0002;
+    border-radius: 10px;
+    background: rgba(256, 256, 256, 0.5);
+}
+
+#summary-cart ul {
+    padding: 0;
+}
+
+#summary-cart li {
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+    margin:0;
+}
+
+#summary-cart p {
+    margin: 0px;
+}
+
+#summary-cart .value img {
+    width: 20px;
+    vertical-align: middle;
+    
+}
+
+#summary-cart .title {
+    color: gray;
+}
+
+#summary-cart .value {
+    font-variation-settings: "wght" 500;
+}
+
+/* DETAILS SECTION */
+main > #details {
+    background: white;
+    text-align: right;
+    padding: 2px 20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    
+}
+
+#publisher {
+    margin-top: 10px;
+}
+
+#username {
+    vertical-align: top;
+    display: inline-block;
+    height: 40px;
+    margin: 5px;
+}
+
+#head p {
+    margin-top: 5px;
+}
+
+/* TABLE SECTION */
+#publish-info table {
+    width: 100%;    
+}
+
+#publish-info th {
+    padding: 5px;
+    font-family: Pinar;
+    border-bottom: 1px dashed var(--tertiary-color);
+    border-left: 1px dashed var(--tertiary-color);
+}
+
+#publish-info td {
+    padding: 5px;
+    border-bottom: 1px dashed var(--tertiary-color);
+}
+
+#publish-info tr:last-child td, #publish-info tr:last-child th {
+    border-bottom: none;
+}
+
+/* EVALUATION SECTION */
+#evaluation {
+    text-align: center;
+}
+
+#evaluation h4 {
+    text-align: right;
+}
+
+#evaluation ul {
+    padding: 0;
+}
+
+#evaluation li {
+    display: inline-block;
+    width: 60px;
+    margin: 1px;
+    padding: 5px 0;
+    border-radius: 10px;
+}
+
+#evaluation li h5 {
+    margin: 5px 5px 20px 5px;
+    color: white;
+}
+
+#evaluation span {
+    background: var(--tertiary-color);
+    color: white;
+    width: 40px;
+    padding: 6px 1px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#evaluation li:nth-child(1) {
+    background: var(--yellow);
+}
+
+#evaluation li:nth-child(2) {
+    background: var(--green);
+}
+
+#evaluation li:nth-child(3) {
+    background: var(--red);
+}
+
+#evaluation li:nth-child(4) {
+    background: var(--purple);
+}
+
+/* COMMENTS SECTION */
+#comments {
+    padding-bottom: 40px;
+}
+
+#comments form button {
+    background: var(--secondary-color);
+    padding: 0;
+    margin: 0;
+    margin-left: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#comments form input {
+    vertical-align: top;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid var(--tertiary-color);
+    width: calc(100% - 65px);
+}
+
+.comment {
+    background: var(--primary-color);
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid var(--primary-color);
+}
+
+.comment div {
+    display: inline-block;
+}
+
+.comment .text {
+    width: calc(100% - 70px);
+    padding: 5px;
+    vertical-align: top;
+}
+
+.comment .text h6 {
+    margin: 0;
+}
+
+.comment .text p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#empty-comments {
+    text-align: center;
+}
+
+#empty-comments img {
+    width:250px;
+}
+
+/* BUYING SECTION */
+#buy-btn {
+    position: fixed;
+    width: 100%;
+    background: white;
+    bottom:0;
+    right:0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#buy-btn a {
+    display: inline-block;
+    width: 90%;
+    max-width: 400px;
+    color: white;
+    background: var(--secondary-color);
+    border-radius: 10px;
+    padding: 15px 0;
+    margin: 10px auto;
+    font-variation-settings: "wght" 500;
+    box-shadow: 0 0 0.7rem #888;
+}
+
+
+#buy-btn button {
+  background: var(--blue);
+  color: white;
+  border: none;
+  margin: 5px 0;
+  border-radius: 10px;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 90%;
+    max-width: 400px;
+}
+
+.profile-picture {
+    position: relative;
+}
+
+.profile-picture .badge {
+    position: absolute;
+    top: -16px;
+    right: -18px;
+    width: 30px;
+    height: 30px;
+    filter: drop-shadow(1px 1px 2px white);
+  }
+
+/* RESPONSIVE */
+@media screen and (min-width: 500px) {
+    #preview {
+        margin: 0 calc(50% - 180px);
+        width: 350px;
+    }
+
+    main > #details {
+        padding: 10px 50px;
+    }
+    
+    #evaluation li {
+        width: 80px;
+        margin: 2px 6px;
+        padding: 10px 0;
+    }
+
+    #evaluation span {
+        width: 60px;
+        padding: 15px 1px;
+    }
+
+    #empty-comments img {
+        width:350px;
+    }
+    
+    .comment {
+        padding: 10px;
+    }
+
+    
+    .comment .text {
+        width: calc(100% - 100px);
+        padding: 5px;
+        vertical-align: top;
+    }
+    
+    .comment .text h6 {
+        font-size: 15px;
+    }
+    
+    .comment .profile-picture {
+        width: 70px;
+        height: 70px;
+    }
+
+    .comment .profile-picture img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .profile-picture .badge {
+        top: -20px;
+        right: -20px;
+        width: 40px;
+        height: 40px;
+        filter: drop-shadow(1px 1px 5px white);
+  }
+  #buy-btn button {
+    width: unset;
+  }
+
+}
+
+
+/* ANIMATION */
+#evaluation li:hover {
+    transform: translateY(-10px);
+}
+
+.comment:hover {
+    border-bottom: 2px dashed var(--tertiary-color);
+}
+
+#buy-btn a:hover {
+    background: var(--tertiary-color);
+}
+
+/* ADD DELAYS */
+#evaluation li, .comment, #buy-btn a {
+    transition: var(--animation-delay);
+}

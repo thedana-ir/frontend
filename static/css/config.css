@@ -1,0 +1,68 @@
+/* VARIABLES */
+:root {
+    /* COLORS */
+    --primary-color: #FDE74C;
+    --secondary-color: #379634;
+    --tertiary-color: #222E50;
+    --gray: #888;
+    --green: #008148;
+    --red: #EF2917;
+    --yellow: #EF8A17;
+    --purple: #A42CD6;
+    --blue: #246EB9;
+        
+    /* ANIMATIONS */
+    --animation-delay: 500ms;
+}
+
+/* FONTS */
+@font-face { 
+    font-family: 'Pinar';
+    src: url('../fonts/Pinar-DS1-FD.woff') format('woff');
+}
+
+@font-face { 
+    font-family: 'Estedad';
+    src: url('../fonts/Estedad-VF-FD.woff2') format('woff2-variations');
+}
+
+/* SET UPS */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+body, p, a, ul, li, input, button, select {
+    font-family: Estedad !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Pinar !important;
+    color: var(--tertiary-color)
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+}
+
+input::-ms-reveal, input::-ms-clear {
+    display: none;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}

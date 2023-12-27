@@ -1,0 +1,35 @@
+main {
+    background-color: var(--purple);
+    text-align: center;   
+}
+
+#head {
+    padding: 30px 0;
+    padding-top: 60px;
+}
+
+#head h1 {
+    margin: 0;
+    color: white;
+}
+
+#content {
+    background-color: var(--primary-color);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+
+#content p {
+    white-space: pre-line;
+    text-align: justify;
+    margin: auto 10px
+}
+
+@media screen and (min-width: 500px) {
+    #content p {
+        margin: auto 50px;
+    }
+}

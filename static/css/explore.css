@@ -1,0 +1,136 @@
+main {
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+
+
+#head {
+  padding-top: 60px;
+  padding-bottom: 5px;
+}
+
+#head h2 {
+  margin: 0;
+  color: white;
+}
+
+.sources {
+  background-color: var(--primary-color);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 20px;
+  min-height: 100vh;
+  background-size: 270px;
+  background-attachment: fixed;
+}
+
+.sources .source {
+  width: 90%;
+  display: inline-block;
+  margin: 10px 0;
+  border-radius: 10px;
+  padding: 10px 5%;
+  background-size: 400px;
+  background-color: var(--secondary-color);
+  background-image: none;
+}
+
+.sources .source >  div {
+  display: inline-block;
+}
+
+.sources .source .details {
+  width: 64%;
+  text-align: right;
+  vertical-align: top;
+}
+
+.sources .source .details h3 {
+  margin: 8px 0;
+  color: white;
+
+}
+
+
+.sources .source .details h4 {
+  margin: 0;
+  color: #333;
+}
+
+.sources .source .ctas {
+  width: 34%;
+}
+
+.source .ctas a {
+  display: block;
+  margin: 5px 0;
+  border-radius: 10px;
+  padding: 8px 0;
+}
+
+
+.source .ctas a.stars {
+    background: white;
+  color: var(--tertiary-color);
+}
+
+.stars img {
+  width: 40px;
+  vertical-align: middle;
+}
+
+.stars p {
+  margin: 0;
+}
+
+#not-found img {
+  width: 70%;
+  max-width: 300px;
+}
+
+#not-found p {
+  margin: 2px;
+  font-family: Pinar !important;
+}
+
+#not-found p:last-child {
+  margin-top: 20px;
+}
+
+#title-search label {
+  color: var(--primary-color);
+  font-size: 22px;
+}
+
+#title-search button {
+    background: var(--blue);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: Pinar !important;
+    font-size: 20px;
+    padding: 5px 40px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#title-search .input-container a {
+  color: black;
+  font-size: 15px;
+  text-decoration: underline;
+  display: block;
+}
+
+#title-search .submit-container a {
+    border: 1px solid black;
+    padding: 10px 0;
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+    margin: 0;
+    margin-top:10px;
+  text-align: center;
+  background: none;
+  color: black;
+  text-decoration: none;
+}

@@ -1,0 +1,187 @@
+main {
+    text-align: left;
+    background-color: var(--secondary-color);
+    background-image: url('../img/svg/smile-bg-white.svg');
+    background-size: 35%;
+}
+
+#right-side {
+    display: none;
+    vertical-align: top;
+    text-align: center;
+}
+
+#right-side .container {
+    background: var(--primary-color);
+    border-radius: 10px;
+    width: 80%;
+    display: inline-block;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+#right-side h2 {
+    color: var(--secondary-color);
+}
+
+#right-side p {
+    margin: 5px 0;
+}
+
+#right-side p:last-child {
+    margin-top: 50px;
+}
+
+#right-side a {
+    text-decoration: underline;
+    color: var(--tertiary-color);
+    font-size: 18px;
+}
+
+#main-side {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    background-color: white;
+    min-height: 100vh;
+}
+
+#main-side #head {
+    background: var(--primary-color);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+#main-side #head img {
+    width: 250px;
+    margin: 50px 0;
+}
+
+#main-side #head h3 {
+    margin: 0;
+    transform: translateY(-20px);
+}
+
+
+#form-container {
+    margin-top: 30px;
+}
+
+#form-container input, #form-container select, #form-container button {
+    width: 70%;
+    margin: 10px 0%;
+    padding: 15px 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    border-radius: 10px;
+    border: none;
+    color: var(--tertiary-color);
+    border-bottom: 2px solid;
+}
+
+#form-container button {
+    margin-top: 40px;
+    margin-left: 20px; 
+    width: 40%;
+    background: var(--secondary-color);
+    color: white;
+    font-variation-settings: "wght" 500;
+    border: none;
+    cursor: pointer;
+}
+
+#goto-signup, #forgot-password {
+    text-decoration: underline;
+}
+
+#page1 > div {
+    width: 70%;
+    padding: 15px 0px;
+    padding-left: 0;
+    display: inline-block;
+    text-align: right;
+}
+
+#page1 > div a {
+    color: var(--tertiary-color);
+    text-decoration: underline;
+}
+
+#page1 input[type=checkbox] {
+    width: 20px;
+}
+
+
+#page1 .password-container input {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+}
+
+#page1 .password-container {
+    position: relative;
+}
+
+#page1 .password-container img {
+    position: absolute;
+    width: 30px;
+    top: 20px;
+    left: 0;
+    cursor: pointer;
+}
+
+.validation-error {
+    display: inline-block;
+    width: 70%;
+    text-align: right;
+    margin: 0;
+    color: var(--red);
+}
+
+.validation-error a {
+    text-decoration: underline;
+}
+
+#forgot-password {
+    text-align: right;
+    width: 70%;
+    display: inline-block;
+    margin-top: 0;
+}
+
+
+/* RESPONSIVE */
+@media screen and (min-width: 750px) {
+    #right-side {
+        display: inline-block;
+        width: 48%;
+    }
+    
+    #main-side {
+        width: 50%;
+    }
+    
+}
+
+/* ANIMATIONS */
+#form-container button:hover {
+    background-color: var(--green);
+}
+
+
+#right-side a:hover {
+    font-size: 19px;
+}
+
+#goto-signup:hover, #forgot-password a:hover {
+    font-size: 17px;
+}
+
+/* ADD DELAYS */
+#form-container button,
+#right-side a,
+#goto-signup,
+#forgot-password a {
+    transition: var(--animation-delay);
+}

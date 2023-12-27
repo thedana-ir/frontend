@@ -1,0 +1,163 @@
+main {
+    background-color: var(--secondary-color);
+}
+
+main > div {
+    padding: 0 30px;
+}
+/* TOP BANNER */
+#top-banner {
+    text-align: center;
+    color: white;
+    border-bottom: 5px dashed var(--primary-color);
+}
+
+#top-banner h1 {
+    color: var(--primary-color);
+}
+
+#top-banner > img {
+    max-width: 500px;
+    width: 100%;
+}
+
+#search {
+    background: var(--primary-color);
+    color: black;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-family: Pinar !important;
+}
+
+#down-arrow-container {
+    margin: 0;
+    display: block;
+}
+
+#down-arrow-container img {
+    transform: translateY(25px);
+    background: var(--secondary-color);
+    border-bottom: 5px dashed var(--primary-color);
+    border-radius: 10px;
+}
+
+/* WHY DANA ? */
+#why-dana {
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#why-dana h2 {
+    margin-top: 0;
+}
+
+/* LOG IN BTNS */
+#login-btns {
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 20px;
+}
+
+#login-btns h3 {
+    margin: 0;
+    color: white;
+}
+
+#login-btns p {
+    margin: 0;
+}
+
+#login-btns p span {
+    font-family: Pinar !important;
+}
+
+#login-btns #btns {
+    margin-top: 50px;
+}
+
+#login-btns a {
+    color: white;
+    background: var(--green);
+    padding: 5px 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#login-btns a:nth-child(1) {
+    background: var(--yellow);
+    padding: 5px 40px;
+}
+
+/* UNIVERSITYS */
+#universitys {
+    background: white;
+    background-image: url('../img/graduates-background.png');
+    background-size: 300px;
+    background-attachment: fixed;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+#universitys h3 {
+    background: white;
+    margin-top: 0;
+    padding: 10px 0 ;
+    margin-bottom: 60px;   
+    border-radius: 10px;
+}
+
+
+#universitys .university {
+    text-align: center;
+    width: 150px;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    background: linear-gradient(8deg, #fff0, #fff2, #fff3);
+    border: 1px solid var(--tertiary-color);
+}
+
+#universitys .university img {
+    width: 100%;
+}
+
+#universitys .university h4 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+/* FAQS */
+#faqs h3 {
+    margin-top: 0;
+    padding: 20px 0 ;
+    color: var(--primary-color);
+}
+
+#faqs ul {
+    padding: 0;
+}
+
+#faqs li {
+    display: block;
+}
+
+#faqs .question {
+    background: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+#faqs .answer {
+    display: none;
+}
+
+
+/* ANIMATION */
+#down-arrow-container:hover img {
+    transform: translateY(35px);
+}
+
+/* ADD DELAYS */
+#down-arrow-container img {
+    transition: var(--animation-delay);
+}

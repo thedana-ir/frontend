@@ -1,0 +1,413 @@
+main {
+    background-color: var(--blue);
+    text-align: center;
+    padding-bottom: 70px;
+    
+}
+
+#head {
+    padding: 30px 0;
+    padding-top: 60px;
+
+}
+
+#head h2 {
+    margin: 0;
+    color: white;
+}
+
+#form-container {
+    background-color: var(--primary-color);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    background-image: url('../img/svg/boys-helping.svg');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-y:  bottom;
+    background-position-x: -59px;
+}
+
+#form-container > p {
+    text-align: right;
+    color: var(--blue);
+    font-weight: bold;
+    display: inline-block;
+    width: calc(90% - 30px);
+    padding-right: 30px;
+    position:  relative;
+}
+
+#form-container > p img {
+    vertical-align: middle;
+    width: 30px;
+    position: absolute;
+    right: 0;
+}
+
+.input-container {
+    text-align: right;
+    display: inline-block;
+    width: 90%;
+    margin: 10px;
+    margin-right: 0;
+    position: relative;
+}
+
+.input-container > label {
+    display: block;
+    font-family: Pinar !important;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: var(--tertiary-color);
+}
+
+.input-container input, .input-container textarea {
+    padding: 10px;
+    width: calc(100% - 20px);
+    border: none;
+    border-radius: 10px;
+    background: rgba(256, 256, 256, 0.5);
+}main {
+    background-color: var(--blue);
+    text-align: center;
+    padding-bottom: 70px;
+    
+}
+
+#head {
+    padding: 30px 0;
+    padding-top: 60px;
+}
+
+#head h2 {
+    margin: 0;
+    color: white;
+}
+
+#form-container {
+    background-color: var(--primary-color);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    background-image: url('../img/svg/boys-helping.svg');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-y:  bottom;
+    background-position-x: -59px;
+}
+
+#form-container > p {
+    text-align: right;
+    color: var(--blue);
+    font-weight: bold;
+    display: inline-block;
+    width: calc(90% - 30px);
+    padding-right: 30px;
+    position:  relative;
+}
+
+#form-container > p img {
+    vertical-align: middle;
+    width: 30px;
+    position: absolute;
+    right: 0;
+}
+
+.input-container {
+    text-align: right;
+    display: inline-block;
+    width: 90%;
+    margin: 10px;
+    margin-right: 0;
+    position: relative;
+}
+
+.input-container > label, .file-types div label {
+    display: block;
+    font-family: Pinar !important;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: var(--tertiary-color);
+}
+
+.input-container input, .input-container textarea {
+    padding: 10px;
+    width: calc(100% - 20px);
+    border: none;
+    border-radius: 10px;
+    background: rgba(256, 256, 256, 0.5);
+}
+
+.input-container textarea {
+    height: 120px;
+    font-family: Estedad !important;
+}
+
+.input-container input[type=email],
+.input-container input[type=tel],
+.input-container input[type=number] {
+    direction: ltr;
+    text-align: right;
+}
+
+.suggestions {
+    display: none;
+    position:absolute;
+    top: 65px;
+    z-index: 2;
+    background: var(--blue);
+    color: white;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    border-radius: 10px;
+    box-shadow: 0 0 0.7rem #ddd;
+}
+
+.suggestions li {
+    margin: 5px 10px;
+    cursor: pointer;
+    opacity: 0.8;
+    padding: 5px;
+}
+
+
+.checkbox-container {
+    display: inline-block;
+    margin: 0 10px; 
+}
+
+.checkbox-container input:not(:checked) + label {
+    color: var(--gray)
+}
+
+.input-container #or {
+    margin: 2px;
+    margin-right: 10px;
+    font-family: Pinar !important;
+    color: var(--tertiary-color);
+}
+
+#submit-container {
+    position: fixed;
+    bottom: 0;
+    right:0;
+    width: 100%;
+    background: var(--primary-color);
+    text-align: center;
+}
+
+#submit-container button {
+    background: var(--secondary-color);
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    font-family: Pinar !important;
+    font-size: 20px;
+    padding: 5px 20%;
+}
+
+#submit-container img {
+    vertical-align: middle;
+    width: 30px;
+    margin: 5px;
+}
+
+.field-info {
+    margin: 5px;
+    font-size: 14px;
+    color: var(--purple);
+    font-weight: bold;
+    width: 70%;
+}
+
+#uploading #upload-bar {
+    background: white;
+    height: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+    text-align: left;
+}
+
+#upload-bar div {
+    background: var(--green);
+    height: 30px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 0%;
+}
+
+#upload-bar span {
+    display:inline-block;
+    position:absolute;
+    width: 100%;
+    text-align: center;
+    right:0;
+    top:0;
+    padding: 1px 0;
+    color: black
+}
+/* ANIMATION */
+.suggestions li:hover {
+    background: rgba(200,200,200, 0.1);    
+    opacity: 1;
+}
+
+/* ADD DELAY */
+.suggestions li {
+    transition: var(--animation-delay);
+}
+
+
+/* RESPONSIVE */
+@media screen and (min-width: 500px) {
+    #form-container {
+        background-size: 385px;
+    }
+}
+
+.input-container textarea {
+    height: 120px;
+    font-family: Estedad !important;
+}
+
+.input-container input[type=email],
+.input-container input[type=tel],
+.input-container input[type=number] {
+    direction: ltr;
+    text-align: right;
+}
+
+.suggestions {
+    display: none;
+    position:absolute;
+    top: 65px;
+    z-index: 2;
+    background: var(--blue);
+    color: white;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    border-radius: 10px;
+    box-shadow: 0 0 0.7rem #ddd;
+}
+
+.suggestions li {
+    margin: 5px 10px;
+    cursor: pointer;
+    opacity: 0.8;
+    padding: 5px;
+}
+
+
+.checkbox-container {
+    display: inline-block;
+    margin: 0 10px; 
+}
+
+.checkbox-container input:not(:checked) + label {
+    color: var(--gray)
+}
+
+.input-container #or {
+    margin: 2px;
+    margin-right: 10px;
+    font-family: Pinar !important;
+    color: var(--tertiary-color);
+}
+
+#submit-container {
+    position: fixed;
+    bottom: 0;
+    right:0;
+    width: 100%;
+    background: var(--primary-color);
+    text-align: center;
+}
+
+#submit-container button {
+    background: var(--secondary-color);
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    font-family: Pinar !important;
+    font-size: 20px;
+    padding: 5px 20%;
+    cursor: pointer;
+}
+
+#submit-container img {
+    vertical-align: middle;
+    width: 30px;
+    margin: 5px;
+}
+
+.field-info {
+    margin: 5px;
+    font-size: 14px;
+    color: var(--purple);
+    font-weight: bold;
+    width: 70%;
+}
+
+.file-types div label small {
+    margin-right: 10px;
+    color: var(--gray);
+    font-family: Estedad !important;
+}
+
+.file-types .header-btns {
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.file-types .header-btns button {
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-color: black;
+    color: black;
+    background: transparent;
+}
+
+.file-types .header-btns button.active {
+    border-color: var(--blue);
+    color: white;
+    background: var(--blue);
+}
+
+.file-types .types {
+    border: 1px dashed var(--gray);
+    padding: 10px 0;
+}
+
+.types.img-files {
+    display: none;
+}
+
+/* ANIMATION */
+.suggestions li:hover {
+    background: rgba(200,200,200, 0.1);    
+    opacity: 1;
+}
+
+/* ADD DELAY */
+.suggestions li {
+    transition: var(--animation-delay);
+}
+
+
+/* RESPONSIVE */
+@media screen and (min-width: 500px) {
+    #form-container {
+        background-size: 385px;
+    }
+}
