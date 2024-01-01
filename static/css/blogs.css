@@ -28,18 +28,18 @@ body{
     flex-flow: row-reverse;
     padding: 1.2rem;
     justify-content: space-between;
-    align-items: center;
 }
 
 .blog-img{
-    width: 144px;
-    height: 172px;
+    width: 7rem;
 }
 
 .texual-blog-content{
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    align-items: start;
+    justify-content: space-between;
+    
 }
 
 .blog-date{
