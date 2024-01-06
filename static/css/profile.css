@@ -4,9 +4,13 @@ body{
 }
 
 
-/* profile card styles starts */
+/* profile card styles  */
 .profile-card{
+    margin-top: 0.8rem;
+    padding: 0.5rem;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #fff;
     border: 2px solid var(--secondary-color);
     border-radius: 10px;
@@ -14,6 +18,7 @@ body{
 }
 
 
+/* profile image styles */
 .circle-profile-img{
     width: 3rem;
     height: 3rem;
@@ -22,12 +27,37 @@ body{
 
 .edit-prof-img-icon{
     position: relative;
-    bottom: 1.6rem;
+    top: .1rem;
+    left: 3.2rem;
     background-color: var(--primary-color);
     border-radius: 6px;
     cursor: pointer;
     width: 0.8rem;
 }
+
+/* texual information styles stars */
+.user-name{
+    font-family: 'Pinar';
+    font-size: 18px;
+    margin: 0 !important;
+}
+
+.user-email{
+    font-family: 'Pinar';
+    margin: 0 !important;
+    font-size: 13px;
+}
+
+
+/* edit profile icon styles */
+.edit-profile-icon{
+    width: 1.8rem;
+    cursor: pointer;
+}
+
+
+
+
 
 @media screen and (min-width: 325px){
     .edit-prof-img-icon{
