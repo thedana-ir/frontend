@@ -22,9 +22,16 @@ body{
 
 .edit-prof-img-icon{
     position: relative;
-    left: 3.2rem;
+    bottom: 1.6rem;
     background-color: var(--primary-color);
     border-radius: 6px;
     cursor: pointer;
     width: 0.8rem;
+}
+
+@media screen and (min-width: 325px){
+    .edit-prof-img-icon{
+        left: 3.2rem;
+        top: 0.15rem;
+    }
 }
