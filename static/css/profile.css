@@ -56,6 +56,60 @@ body{
 }
 
 
+/* access links styles */
+.access-links{
+    padding: 1rem 0;
+    background-color: #fff;
+    border: 2px solid var(--secondary-color);
+    border-radius: 10px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.access-links-opt{
+    background-color: #DDDDDD;
+    width: 85%;
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+}
+
+.access-links-opt img{
+    width: 22px;
+    
+}
+
+.access-links-opt a{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.access-links-opt a span{
+    font-family: 'Pinar';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
