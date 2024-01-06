@@ -468,3 +468,68 @@ footer {
     background: var(--gray);
     color: white;
 }
+
+
+
+/* personal header styles starts */
+.personal-header{
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* profile image styles */
+.profile-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img img{
+    width: 3rem;
+}
+
+
+/* progress bar styles */
+.progress-bar-container{
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    height: 20px;
+    width: 58%;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px var(--secondary-color);
+    border-radius: 3px;
+}
+
+#level{
+    position: absolute;
+    padding-left: 0.5rem;
+}
+
+.progress-bar{
+    height: 20px;
+    width: 25%;
+    background-color:var(--secondary-color);
+}
+
+
+/* score part styles */
+.score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-title{
+    font-family: 'Pinar';
+    font-size: 16px;
+}
+
+#total-score{
+    font-family: 'Pinar';
+    font-size: 10px;
+}
