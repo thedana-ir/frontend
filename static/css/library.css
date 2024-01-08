@@ -4,6 +4,7 @@ body{
     margin-bottom: 70px;
 }
 
+/* my resourcess part styles */
 .my-resources{
     margin: 1rem 0;
     background-color: var(--secondary-color);
@@ -30,4 +31,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+/* search bar styles */
+.search-bar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(256, 256, 256, 0.66);
+}
+
+.search-bar-input{
+    width: 100%;
+    border: none;
+    background-color: rgba(256, 256, 256, 0.66);
+    color: rgba(256, 256, 256, 0.66);
 }
