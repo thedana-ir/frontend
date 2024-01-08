@@ -536,3 +536,31 @@ footer {
     font-family: 'Pinar';
     font-size: 10px;
 }
+
+
+/* fixed footer styles */
+.fixed-footer{
+    padding: 0 !important;
+}
+
+.footer-icons-container{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.7rem 0;
+}
+
+.footer-icons-container a{
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon{
+    width: 40px;
+    height: 40px;
+}
