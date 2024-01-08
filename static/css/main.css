@@ -11,6 +11,12 @@ html::-webkit-scrollbar-thumb{
     background: var(--gray);
 } */
 
+/* body styles with custom footer and header */
+.custom-body{
+    padding: 1rem 1rem 0 1rem;
+    margin-bottom: 70px;
+}
+
 /* HEADERS */
 #simple-header {
     direction: ltr;
