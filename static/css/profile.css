@@ -20,10 +20,17 @@ body{
 
 
 /* profile image styles */
+.profile-image-container{
+    background-color: transparent !important;
+    border: none;
+    padding: 0 !important;
+}
+
 .circle-profile-img{
     width: 3rem;
     height: 3rem;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .edit-prof-img-icon{
@@ -33,7 +40,11 @@ body{
     background-color: var(--primary-color);
     border-radius: 6px;
     cursor: pointer;
-    width: 0.8rem;
+    width: 1rem;
+}
+
+.edit-profile-img-btn{
+    cursor: pointer;
 }
 
 /* texual information styles stars */
