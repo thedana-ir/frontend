@@ -36,16 +36,22 @@ body{
 
 /* search bar styles */
 .search-bar{
-    width: 100%;
+    padding: 0.3rem;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(256, 256, 256, 0.66);
+    border-radius: 5px;
 }
 
 .search-bar-input{
     width: 100%;
     border: none;
-    background-color: rgba(256, 256, 256, 0.66);
-    color: rgba(256, 256, 256, 0.66);
+    background-color: transparent;
+    font-family: 'Pinar';
+    padding-right: 0.5rem;
+}
+
+.search-icon{
+    width: 22px;
 }
