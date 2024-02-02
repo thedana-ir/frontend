@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TODO: SEO -->
+
+    <link rel="stylesheet" href="./static/css/config.css?v=1.0">
+    <link rel="stylesheet" href="./static/css/main.css?v=2.0">
+    <link rel="stylesheet" href="./static/css/advanced-search.css?v=1.0">
+    <link rel="stylesheet" href="./static/css/responsive.css?v=1.0">
+
+    <title>Source Page</title>
+</head>
+
+<body>
+    <!-- <div id="messages">
+        <div class="message info">
+            <div class="icon-container">
+                <div class="icon">
+                    <img src="./static/img/icons/bell.png" alt="جدید">
+                </div>
+            </div>
+            <div class="message-container">
+                <p class="title">روی جزوه شما کامنت جدیدی ثبت شد!</p>
+                <p class="detail">برای جزوه <a href="#">علوم کامپیوتر</a> شما کامنت جدیدی ثبت شده.</p>
+            </div>
+        </div>
+        <div class="message success">
+            <div class="icon-container">
+                <div class="icon">
+                    <img src="./static/img/icons/success.png" alt="موفق">
+                </div>
+            </div>
+            <div class="message-container">
+                <p class="title">پیام شما با موفقیت ثبت شد!</p>
+                <p class="detail">پیام شما پس از بررسی و تایید پشتیبانی روی این صفحه قرار میگیرد.</p>
+            </div>
+        </div>
+        <div class="message fail">
+            <div class="icon-container">
+                <div class="icon">
+                    <img src="./static/img/icons/fail.png" alt="ناموفق">
+                </div>
+            </div>
+            <div class="message-container">
+                <p class="title">متاسفانه مشکلی در ثبت پیام پیش آمد!</p>
+                <p class="detail">لطفا دقایقی دیگر مجدد تلاش کنید و در صورت تکرار مشکل به پشتیبانی اطلاع دهید.</p>
+            </div>
+        </div>
+        <div class="message warning">
+            <div class="icon-container">
+                <div class="icon">
+                    <img src="./static/img/icons/warning.png" alt="اخطار">
+                </div>
+            </div>
+            <div class="message-container">
+                <p class="title">با تعویض رمز عبور خود امنیت بیشتری داشته باشید!</p>
+                <p class="detail">شما میتوانید از طریق صفحه پروفایل خود نسبت به تعویض رمز اقدام کنید.</p>
+            </div>
+        </div>
+    </div> -->
+    <main>
+        <header id="simple-header">
+            <a id="back-btn" href="#" class="icon">
+                <img src="./static/img/icons/back-tertiary.png" alt="بازگشت">
+            </a>
+        </header>
+        <div id="head">
+            <h2>جستجوی پیشرفته</h2>
+        </div>
+        <div id="form-container">
+            <form id="title-search">
+                <div class="input-container">
+                    <label for="s">جستجوی سریع</label>
+                    <input required type="text" placeholder="طراحی سیستم های دیجیتال" id="s">
+                </div>
+                <div class="input-container">
+                    <button type="submit">جستجو</button>
+                </div>
+            </form>
+            <h3>جستجو با جزئیات بیشتر</h3>
+            <p><img src="./static/img/icons/hint.svg" alt=""> با خالی گذاشتن هر کدوم از فیلد های درس، استاد یا دانشجو، اون فیلد توی جستجو بی اثر میشه!</p>
+            <form>
+                <div class="input-container">
+                    <label for="source-title">درس</label>
+                    <input type="text" placeholder="طراحی سیستم های دیجیتال" id="source-title">
+                    <ul class="suggestions">
+                        <li>سیستم های دیجیتال</li>
+                        <li>طراحی الگوریتم</li>
+                        <li>سیستم های دیجیتال</li>
+                        <li>سیستم های دیجیتال</li>
+                    </ul>
+                </div>
+                <div class="input-container">
+                    <label for="teacher">استاد</label>
+                    <input type="text" placeholder="دکتر رضایی" id="teacher">
+                    <ul class="suggestions">
+                        <li>سیستم های دیجیتال</li>
+                        <li>طراحی الگوریتم</li>
+                        <li>سیستم های دیجیتال</li>
+                        <li>سیستم های دیجیتال</li>
+                    </ul>
+                </div>
+                <div class="input-container">
+                    <label>نوع منبع</label>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="textbook" checked>
+                        <label for="textbook">جزوه</label>
+                    </div>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="question-sample" checked>
+                        <label for="question-sample">نمونه سوال</label>
+                    </div>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="others" checked>
+                        <label for="others">غیره</label>
+                    </div>
+                </div>
+                <div class="input-container">
+                    <label>دانشگاه</label>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="all-universities">
+                        <label for="all-universities">تمام دانشگاه ها</label>
+                    </div>
+                    <p id="or">یا</p>
+                    <input type="text" placeholder="دانشگاه صنعتی شیراز" value="دانشگاه صنعتی شیراز" id="university">
+                    <ul class="suggestions">
+                        <li>سیستم های دیجیتال</li>
+                        <li>طراحی الگوریتم</li>
+                        <li>سیستم های دیجیتال</li>
+                        <li>سیستم های دیجیتال</li>
+                    </ul>
+                </div>
+                <div class="input-container">
+                    <label for="student">دانشجو</label>
+                    <p id="student-field-info">لزوما نویسنده نیست! <br> در حقیقت منظور اون دوستتونه که منبع رو آپلود کرده</p>
+                    <input type="text" placeholder="محسن یزدان دوست" id="student">
+                    <ul class="suggestions">
+                        <li>سیستم های دیجیتال</li>
+                        <li>طراحی الگوریتم</li>
+                        <li>سیستم های دیجیتال</li>
+                        <li>سیستم های دیجیتال</li>
+                    </ul>
+                </div>
+                <div id="submit-container">
+                    <button type="submit">پیداش کن <img src="./static/img/icons/search.svg" alt=""></button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+<script type='text/javascript' src='./static/js/jquery-3.7.0.min.js'></script>
+<script type='text/javascript' src='./static/js/advanced-search.js?v=1.0'></script>
+<script type='text/javascript' src='./static/js/source.js?v=1.0'></script>
+</html>
