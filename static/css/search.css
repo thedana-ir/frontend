@@ -41,3 +41,79 @@ body{
     border: 1px solid #fff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
 }
+
+/* booklet cards styles */
+.booklet-cards-container{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.booklet-card{
+    text-align: center;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border: 2px solid var(--secondary-color);
+}
+
+    /* details styles */
+.card-details{
+    width: 55%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.booklet-title{
+    color: #000;
+}
+
+.booklet-title , .course-name , .professor-name{
+    margin: 12px 0 !important;
+}
+
+.course-name , .professor-name{
+    color: var(--tertiary-color);
+}
+
+    /* btn and points styles */
+.points{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.points span{
+    font-weight: 1000;
+    padding-top: 0.5rem;
+    font-size: 20px;
+    font-family: 'Estedad';
+}
+
+.points-title{
+    margin: 0;
+    color: #000;
+}
+
+.details-btn{
+    background-color: var(--yellow);
+    color: #fff;
+    text-align: center;
+    display: block;
+    width: 146px;
+    margin: 10px 0 0 0;
+    border-radius: 5px;
+    padding: 4px 0;
+    font-weight: 900;
+    font-size: 18px;
+    font-family: 'Estedad';
+}
