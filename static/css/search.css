@@ -76,6 +76,9 @@ body{
     padding: .2rem 1rem;
 }
 
+.filtered{
+    border: 0.1rem solid var(--green);
+}
 
 /* booklet cards styles */
 .booklet-cards-container{
