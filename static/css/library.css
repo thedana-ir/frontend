@@ -211,25 +211,6 @@ body{
         padding: 8px 50px;
     }
 
-    /* booklet styles */
-    .booklet-cards-container{
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .booklet-card {
-        width: 43%;
-    }
-
-    .booklet-title{
-        font-size: 1.4rem;
-    }
-
-    .course-name , .professor-name{
-        font-size: 1rem;
-    }
-
     /* my resources part styles */
     .my-resources{
         width: 36.5rem;
@@ -257,11 +238,53 @@ body{
         font-family: 'Pinar' !important;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1); 
     }
+
+    /* booklet styles */
+    .booklet-cards-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .booklet-card {
+        width: 43%;
+    }
+
+    .booklet-title{
+        font-size: 1.4rem;
+    }
+
+    .course-name , .professor-name{
+        font-size: 1rem;
+    }
 }
 
 @media screen and (min-width: 800px){
     /* progress bar styles */
     .progress-bar-container{
         width: 38rem;
+    }
+}
+
+@media screen and (min-width: 900px){
+    body{
+        margin-bottom: 1rem;
+    }
+    /* booklets cards styles */
+    .booklet-card {
+        width: 27%;
+    }
+
+    .booklet-title{
+        font-size: 1.2rem;
+    }
+
+    .course-name , .professor-name{
+        font-size: 1rem;
+    }
+
+    .card-btns a , .add-comment-btn , .booklet-card input{
+        font-size: 14px;
+        padding: 4px 0;
     }
 }
