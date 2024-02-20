@@ -4,9 +4,18 @@ body{
     margin-bottom: 70px;
 }
 
+/* main content styles */
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* my resourcess part styles */
 .my-resources{
     margin: 1rem 0;
+    width: 90%;
     background-color: var(--secondary-color);
     border: 2px solid #000;
     border-radius: 10px;
@@ -35,6 +44,10 @@ body{
 
 
 /* search bar styles */
+.search-form{
+    width: 100%;
+}
+
 .search-bar{
     padding: 0.3rem;
     display: flex;
@@ -56,6 +69,10 @@ body{
     width: 22px;
 }
 
+.search-form-submit{
+    display: none;
+}
+
 /* booklets cards styles */
 .booklet-cards-container{
     margin-top: 1rem;
@@ -64,6 +81,7 @@ body{
     gap: 1rem;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .booklet-card{
@@ -168,6 +186,7 @@ body{
 
 /* responsive */
 @media screen and (min-width: 500px){
+    /* booklet styles */
     .booklet-title{
         font-size: 1.7rem;
     }
@@ -175,10 +194,16 @@ body{
     .course-name , .professor-name{
         font-size: 1.3rem;
     }
+
+    /* search form styles */
+    .search-form{
+        width: 97%;
+    }
 }
 
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 650px){
+    /* booklet styles */
     .booklet-cards-container{
         flex-direction: row;
         flex-wrap: wrap;
@@ -195,5 +220,33 @@ body{
 
     .course-name , .professor-name{
         font-size: 1rem;
+    }
+
+    /* my resources part styles */
+    .my-resources{
+        width: 36.5rem;
+    }
+
+    /* searchbar styles */
+    .search-form{
+        width: 38.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .search-bar {
+        width: 30rem;
+    }
+
+    .search-form-submit{
+        display: block;
+        background-color: var(--secondary-color);
+        color: #fff;
+        border: none;
+        width: 7rem;
+        border-radius: 5px;
+        font-size: 16px;
+        font-family: 'Pinar' !important;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1); 
     }
 }
