@@ -37,9 +37,7 @@ body{
 }
 
 .my-resources-text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 8px 35px;
 }
 
 
@@ -186,6 +184,11 @@ body{
 
 /* responsive */
 @media screen and (min-width: 500px){
+    /* header downloads button */
+    .downloads-btn{
+        padding: 8px 40px;
+    }
+
     /* booklet styles */
     .booklet-title{
         font-size: 1.7rem;
@@ -203,6 +206,11 @@ body{
 
 
 @media screen and (min-width: 650px){
+    /* header downloads button */
+    .downloads-btn{
+        padding: 8px 50px;
+    }
+
     /* booklet styles */
     .booklet-cards-container{
         flex-direction: row;
@@ -248,5 +256,12 @@ body{
         font-size: 16px;
         font-family: 'Pinar' !important;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1); 
+    }
+}
+
+@media screen and (min-width: 800px){
+    /* progress bar styles */
+    .progress-bar-container{
+        width: 38rem;
     }
 }
