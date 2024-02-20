@@ -24,6 +24,74 @@
     }
 
     .desktop-personal-header{
-        display: block;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.35);
+        padding: 1.5rem 1rem;
+        border-bottom: solid 4px var(--secondary-color);
+        border-radius: 0 0 10px 10px;
+    }
+
+    .header-logo-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .desktop-search-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(256, 256, 256, 0.66);
+        border-radius: 5px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        border: 2px solid var(--secondary-color);
+        padding: 0.3rem;
+        width: 25rem;
+    }
+
+
+    /* left items */
+    .desktop-header-left-items{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .my-library-btn-container{
+        padding: 0.4rem 0.8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        background-color: var(--secondary-color);
+        border: 2px solid #fff;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .my-library-btn-container img{
+        width: 24px;
+    }
+
+    .my-library-btn{
+        width: 69px;
+        font-family: 'Pinar';
+    }
+
+    .profile-img a{
+        display: flex;
+        align-items: center;
+    }
+
+    .header-profile-img{
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    /* hide footer */
+    .fixed-footer{
+        display: none;
     }
 }

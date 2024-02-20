@@ -1,6 +1,5 @@
 body{
     background-color: var(--primary-color);
-    padding: 1rem 1rem 0 1rem;
     margin-bottom: 70px;
 }
 
@@ -10,6 +9,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1rem 1rem 0 1rem;
 }
 
 /* my resourcess part styles */
