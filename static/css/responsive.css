@@ -17,3 +17,13 @@
         padding: 10px;
     }
 }
+
+@media screen and (min-width: 900px){
+    .mobile-personal-header{
+        display: none;
+    }
+
+    .desktop-personal-header{
+        display: block;
+    }
+}

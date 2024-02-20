@@ -478,12 +478,18 @@ footer {
 
 
 /* personal header styles starts */
-.personal-header{
+.mobile-personal-header{
     display: flex;
     flex-flow: row-reverse;
     align-items: center;
     justify-content: space-between;
 }
+
+.desktop-personal-header{
+    display: none;
+}
+
+
 
 
 /* profile image styles */
