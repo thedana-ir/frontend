@@ -154,3 +154,46 @@ body{
     cursor: pointer;
     font-size: 16px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+@media screen and (min-width: 500px){
+    .booklet-title{
+        font-size: 1.7rem;
+    }
+
+    .course-name , .professor-name{
+        font-size: 1.3rem;
+    }
+}
+
+
+@media screen and (min-width: 500px){
+    .booklet-cards-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .booklet-card {
+        width: 43%;
+    }
+
+    .booklet-title{
+        font-size: 1.4rem;
+    }
+
+    .course-name , .professor-name{
+        font-size: 1rem;
+    }
+}
