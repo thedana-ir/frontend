@@ -56,7 +56,7 @@
     .desktop-header-left-items{
         display: flex;
         align-items: center;
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .my-library-btn-container{
@@ -100,6 +100,7 @@
 @media screen and (min-width: 1200px){
     /* search form size */
     .desktop-search-form{
-        width: 40rem;
+        width: 37rem;
+        margin-right: 5.5rem;
     }
 }
