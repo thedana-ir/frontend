@@ -1,13 +1,14 @@
-const downloadsBooklets = document.querySelector('#downloads');
-const
-
 $('.downloads-btn').click(function() {
     if ($('#downloads').css('display') == 'none') {
         $('#uploads').fadeOut();
         $('#downloads').css("display", 'flex');
     }
-    // $('#profile-cart #foot h6').removeClass('selected');
-    // $(this).addClass('selected');
+
+    $('.my-resources-btn').removeClass('selected-btn');
+    $('.my-resources-btn').addClass('unselected-btn');
+
+    $(this).removeClass('unselected-btn');
+    $(this).addClass('selected-btn');
 });
 
 $('.my-resources-btn').click(function() {
@@ -15,8 +16,10 @@ $('.my-resources-btn').click(function() {
         $('#downloads').fadeOut();
         $('#uploads').css("display", "flex");
     }
-    // $('#profile-cart #foot h6').removeClass('selected');
-    // $(this).addClass('selected');
-});
 
-console.log("hi");
+    $('.downloads-btn').removeClass('selected-btn');
+    $('.downloads-btn').addClass('unselected-btn');
+
+    $(this).removeClass('unselected-btn');
+    $(this).addClass('selected-btn');
+});
