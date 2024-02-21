@@ -72,6 +72,11 @@ body{
 }
 
 /* booklets cards styles */
+#uploads {
+    display: none;
+}
+
+
 .booklet-cards-container{
     margin-top: 1rem;
     display: flex;
