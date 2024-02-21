@@ -159,3 +159,75 @@ body{
     font-family: 'Estedad';
 }
 
+
+
+
+
+
+/* responsive styles */
+@media screen and (min-width: 500px){
+    .booklet-title{
+        font-size: 1.7rem;
+    }
+
+    .course-name , .professor-name{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 650px){
+    .booklet-cards-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .booklet-card{
+        width: 45%;
+    }
+
+    .booklet-title{
+        font-size: 1.4rem;
+    }
+
+    .course-name , .professor-name{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 800px){
+    /* progress bar styles */
+    .progress-bar-container{
+        width: 38rem;
+    }
+}
+
+@media screen and (min-width: 900px){
+    body{
+        margin-bottom: 1rem;
+    }
+
+
+    /* booklets cards styles */
+    .booklet-card {
+        width: 29%;
+    }
+
+    .booklet-title{
+        font-size: 1.2rem;
+    }
+
+    .course-name , .professor-name{
+        font-size: 1rem;
+    }
+
+    .details-btn{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
