@@ -27,17 +27,25 @@ body{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.downloads-btn{
+/* bottuns styles */
+.unselected-btn{
+    padding: 8px 35px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Pinar' !important;
+}
+
+.selected-btn{
     padding: 8px 30px;
     color: #fff;
     background-color: var(--yellow);
     border: 1px solid #fff;
     border-radius: 5px;
     font-family: 'Pinar' !important;
-}
-
-.my-resources-text{
-    padding: 8px 35px;
+    cursor: pointer;
 }
 
 
@@ -185,9 +193,10 @@ body{
 
 /* responsive */
 @media screen and (min-width: 500px){
-    /* header downloads button */
-    .downloads-btn{
+    /* header downloads/uploads button */
+    .selected-btn{
         padding: 8px 40px;
+        font-size: 24px;
     }
 
     /* booklet styles */
@@ -207,9 +216,10 @@ body{
 
 
 @media screen and (min-width: 650px){
-    /* header downloads button */
-    .downloads-btn{
+    /* header downloads/uploads button */
+    .selected-btn{
         padding: 8px 50px;
+        font-size: 24px;
     }
 
     /* my resources part styles */

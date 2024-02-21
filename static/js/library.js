@@ -1,3 +1,6 @@
+const downloadsBooklets = document.querySelector('#downloads');
+const
+
 $('.downloads-btn').click(function() {
     if ($('#downloads').css('display') == 'none') {
         $('#uploads').fadeOut();
@@ -7,7 +10,7 @@ $('.downloads-btn').click(function() {
     // $(this).addClass('selected');
 });
 
-$('.my-resources-text').click(function() {
+$('.my-resources-btn').click(function() {
     if ($('#uploads').css('display') == 'none') {
         $('#downloads').fadeOut();
         $('#uploads').css("display", "flex");
