@@ -267,11 +267,10 @@ button:focus {
 
 .navbar-brand img {
     margin-left: 15px;
-    width: 40px;
+    width: 50px;
     height: auto;
     transform: scale(1.7);
     vertical-align: middle;
-    /* padding-bottom: 10px; */
 }
 
 .navbar-brand-menu {
@@ -296,10 +295,6 @@ button:focus {
 
 .nav-item .nav-link {
     text-align: right
-}
-
-.nav-item .nav-link:hover .nav-link-menu {
-    /* color: #303669 !important; */
 }
 
 .nav-link-menu {
@@ -622,7 +617,6 @@ button:focus {
 .service-list .service-box .icon {
     color: #ffffff;
     font-size: 40px;
-    display: inline-block;
     float: right;
 }
 
@@ -984,11 +978,10 @@ button:focus {
     margin-left: 5px!important;
 }
 .blockquote-footer {
-    float:right;
+    float: right;
     font-size: 19px;
     color: var(--tertiary-color);
     background-color: rgba(0, 51, 121, 0.15);
-    display: inline-block;
     padding: 5px 10px;
     border-radius: 5px 0 0 5px;
     letter-spacing: 0.5px;
@@ -1089,7 +1082,7 @@ form.contact-form {
 }
 
 .footer-logo img {
-    width: 65px;
+    width: 80px;
     margin-bottom: 20px
 }
 
