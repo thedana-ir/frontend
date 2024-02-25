@@ -84,6 +84,7 @@ display: block;
 #profile-cart .profile-picture button {
   position: absolute;
   bottom: -35px;
+  left: 0;
   width: 100%;
   border: none;
   border-radius: 10px;
