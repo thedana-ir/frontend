@@ -209,6 +209,9 @@ body{
 
 
     /* booklets cards styles */
+    .booklet-cards-container{
+        justify-content: baseline;
+    }
     .booklet-card {
         width: 29%;
     }
