@@ -169,6 +169,18 @@ html::-webkit-scrollbar-thumb{
 }
 
 
+/* search-bar-input styles */
+.search-bar-input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    padding-right: 0.5rem;
+}
+
+.search-icon{
+    width: 22px;
+}
+
 
 /* FOOTER */
 footer {

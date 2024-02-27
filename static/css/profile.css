@@ -160,12 +160,14 @@ body{
 
 
 
-
-
-
+/* responsive styles */
 @media screen and (min-width: 325px){
     .edit-prof-img-icon{
         left: 3.2rem;
         top: 0.15rem;
     }
+}
+
+@media screen and (min-width: 650px){
+    
 }
