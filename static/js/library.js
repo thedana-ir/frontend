@@ -1,7 +1,8 @@
 $('.downloads-btn').click(function() {
-    if ($('#downloads').css('display') == 'none') {
-        $('#uploads').fadeOut();
-        $('#downloads').css("display", 'flex');
+    if ($('#downloads').css('display') === 'none') {
+        $('#uploads').fadeOut(function () {
+            $('#downloads').css("display", 'flex');            
+        });
     }
 
     $('.my-resources-btn').removeClass('selected-btn');
@@ -12,9 +13,10 @@ $('.downloads-btn').click(function() {
 });
 
 $('.my-resources-btn').click(function() {
-    if ($('#uploads').css('display') == 'none') {
-        $('#downloads').fadeOut();
-        $('#uploads').css("display", "flex");
+    if ($('#uploads').css('display') === 'none') {
+        $('#downloads').fadeOut(function () {
+            $('#uploads').css("display", "flex");            
+        });
     }
 
     $('.downloads-btn').removeClass('selected-btn');
