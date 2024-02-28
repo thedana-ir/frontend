@@ -11,6 +11,19 @@ html::-webkit-scrollbar-thumb{
     background: var(--gray);
 } */
 
+/* Pop-Ups */
+.bg-green {
+    background-color: var(--secondary-color);
+}
+
+.swal-content {
+    position: relative;
+}
+
+.swal-content .suggestions {
+    display: block;
+}
+
 /* body styles with custom footer and header */
 .custom-body{
     padding: 1rem 1rem 0 1rem;
