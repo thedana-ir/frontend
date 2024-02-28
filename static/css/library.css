@@ -275,10 +275,10 @@ body{
 
 @media screen and (min-width: 1200px){
     /* booklets cards styles */
-    .booklet-cards-container{
+    /* .booklet-cards-container{
         justify-content: center;
         gap: 3rem;
-    }
+    } */
 
     .booklet-card {
         width: 22%;

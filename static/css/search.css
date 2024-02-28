@@ -182,12 +182,12 @@ body{
         justify-content: space-between;
     }
 
-    .booklet-card{
-        width: 45%;
+    .booklet-card {
+        width: 43%;
     }
 
     .booklet-title{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .course-name , .professor-name{
@@ -207,11 +207,26 @@ body{
         margin-bottom: 1rem;
     }
 
-
     /* booklets cards styles */
-    .booklet-cards-container{
-        justify-content: baseline;
+    .booklet-card {
+        width: 27%;
     }
+
+    .booklet-title{
+        font-size: 1.1rem;
+    }
+
+    .course-name , .professor-name{
+        font-size: 0.9rem;
+    }
+
+    .details-btn{
+        font-size: 14px;
+        padding: 4px 0;
+    }
+
+
+    /* booklets cards styles
     .booklet-card {
         width: 29%;
     }
@@ -227,9 +242,9 @@ body{
     .details-btn{
         font-size: 14px;
     }
+} */
+
 }
-
-
 
 
 
