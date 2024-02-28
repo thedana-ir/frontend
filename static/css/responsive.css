@@ -22,7 +22,9 @@
     .mobile-personal-header{
         display: none;
     }
-
+    .header-logo-container .logo {
+        width: 88px;
+    }
     .desktop-personal-header{
         display: flex;
         justify-content: space-around;
