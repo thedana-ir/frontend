@@ -269,6 +269,13 @@ body{
         font-size: 14px;
         padding: 4px 0;
     }
+
+    /* my library btn */
+    .my-library-btn-container{
+        background-color: var(--secondary-color);
+        color: #fff;
+        border: 2px solid #fff;
+    }
 }
 
 
