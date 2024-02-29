@@ -209,4 +209,20 @@ body{
     .progress-bar-container{
         width: 78%;
     }
+
+    /* left content */
+    .left-desktop-content{
+        width: 60%;
+    }
+
+    .quick-access-title-container img{
+        margin-top: 0.5rem;
+        width: 74%;
+    }
+    .quick-access-title-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
 }
