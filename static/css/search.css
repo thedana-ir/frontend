@@ -179,9 +179,12 @@ body{
     border: 1px solid var(--secondary-color);
 }
 
+.swal-content__input:focus {
+    border-color: var(--secondary-color);
+}
 
 .swal-button--cancel:hover {
-    background-color: red !important;
+    background-color: var(--red) !important;
     color: #fff !important;
 }
 
