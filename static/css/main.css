@@ -11,6 +11,12 @@ html::-webkit-scrollbar-thumb{
     background: var(--gray);
 } */
 
+.main-content{
+    padding: 0 1rem 1rem 1rem;
+}
+
+
+
 /* body styles with custom footer and header */
 .custom-body{
     padding: 1rem 1rem 0 1rem;
@@ -43,6 +49,12 @@ html::-webkit-scrollbar-thumb{
 #simple-header .icon#log-out {
     background: var(--red);
 }
+
+/* main content styles */
+.main-content{
+    padding: 0 1rem 1rem 1rem;
+}
+
 
 /* ICONS */
 .icon {
@@ -162,6 +174,18 @@ html::-webkit-scrollbar-thumb{
     margin: 10px;
 }
 
+
+/* search-bar-input styles */
+.search-bar-input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    padding-right: 0.5rem;
+}
+
+.search-icon{
+    width: 22px;
+}
 
 
 /* FOOTER */

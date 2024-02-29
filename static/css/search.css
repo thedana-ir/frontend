@@ -3,10 +3,6 @@ body{
     margin-bottom: 70px;
 }
 
-.main-content{
-    padding: 0rem 1rem 1rem 1rem;
-}
-
 /* search form styles */
 .search-form{
     margin-top: 0.6rem;
@@ -159,3 +155,127 @@ body{
     font-family: 'Estedad';
 }
 
+/* Pop-Ups */
+.bg-green {
+    background-color: var(--secondary-color);
+}
+
+.bg-green:hover{
+    background-color: var(--secondary-color) !important;
+}
+
+.swal-content {
+    position: relative;
+}
+
+.swal-content .suggestions {
+    display: none;
+    width: calc(100% - 43px);
+    top: 31px;
+    background-color: var(--secondary-color);
+}
+
+.swal-content__input{
+    border: 1px solid var(--secondary-color);
+}
+
+
+.swal-button--cancel:hover {
+    background-color: red !important;
+    color: #fff !important;
+}
+
+
+
+
+
+
+
+/* responsive styles */
+@media screen and (min-width: 500px){
+    .booklet-title{
+        font-size: 1.7rem;
+    }
+
+    .course-name , .professor-name{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 650px){
+    .booklet-cards-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .booklet-card {
+        width: 43%;
+    }
+
+    .booklet-title{
+        font-size: 1.2rem;
+    }
+
+    .course-name , .professor-name{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 800px){
+    /* progress bar styles */
+    .progress-bar-container{
+        width: 38rem;
+    }
+}
+
+@media screen and (min-width: 900px){
+    body{
+        margin-bottom: 1rem;
+    }
+    
+    /* hide main content search form */
+    .search-form{
+        display: none;
+    }
+
+    /* booklets cards styles */
+    .booklet-cards-container{
+        gap: 2rem;
+    }
+
+    .booklet-card {
+        width: 28%;
+    }
+
+    .booklet-title{
+        font-size: 1.1rem;
+    }
+
+    .course-name , .professor-name{
+        font-size: 0.9rem;
+    }
+
+    .details-btn{
+        font-size: 14px;
+        padding: 4px 0;
+        width: 120px;
+    }
+    
+}
+
+@media screen and (min-width: 1100px){
+    .booklet-card {
+        width: 20%;
+    }
+
+    .details-btn{
+        width: 110px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .details-btn{
+        width: 130px;
+    }
+}

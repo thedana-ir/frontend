@@ -12,19 +12,19 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/static/college/favicon/apple-touch-icon.png">
 
     <!-- styles links -->
-    <link rel="stylesheet" href="static/css/main.css">
-    <link rel="stylesheet" href="static/css/responsive.css">
+    <link rel="stylesheet" href="static/css/main.css?v=1.1">
+    <link rel="stylesheet" href="static/css/responsive.css?v=1.1">
     <link rel="stylesheet" href="static/css/config.css">
-    <link rel="stylesheet" href="static/css/profile.css?v=1.0">
+    <link rel="stylesheet" href="static/css/profile.css?v=1.1">
 
     <!-- page title -->
     <title>پروفایل دانا</title>
 </head>
-<body class="custom-body">
-    <!-- header section starts(main html code) -->
-    <header class="personal-header">
+<body>
+    <!-- mobile header section starts(main html code) -->
+    <header class="mobile-personal-header">
         <div class="profile-img">
-            <a href="#"><img src="static/img/green profile.png" alt="عکس پروفایل"></a>
+            <a href="#"><img class="header-profile-img" src="static/img/green profile.png" alt="عکس پروفایل"></a>
         </div>
 
         <div class="progress-bar-container">
@@ -37,68 +37,121 @@
             <span id="total-score">1006 امتیاز</span>
         </div>
     </header>
-    <!-- header section ends -->
+    <!-- mobile header section ends -->
+
+    <!-- desktop header section starts(main html code) -->
+    <header class="desktop-personal-header">
+        <div class="header-logo-container">
+            <img src="static/img/fake logo.png" alt="fake logo">
+        </div>
+
+        <form class="desktop-search-form">
+            <img class="search-icon" src="static/img/icons/search-gray.png" alt="آیکون سرچ">
+            <input class="search-bar-input" type="text" required placeholder="جستجو در هیبو">
+            <input class="desktop-search-form-submit" type="submit" value="جستجو">
+        </form>
+
+        <div class="desktop-header-left-items">
+            <a href="#" class="my-library-btn-container">
+                <img src="static/img/icons/bookmark-black.svg" alt="bookmark">
+                <span class="my-library-btn" href="#">کتابخانه من</span>
+            </a>
+
+            <div class="profile-img">
+                <a href="#"><img class="header-profile-img" src="static/img/green profile.png" alt="عکس پروفایل"></a>
+            </div>
+        </div>
+    </header>
+    <!-- desktop header section ends -->
 
 
     <!-- main content section starts -->
-    <section class="main">
-        <!-- profile cards part starts -->
-        <div class="profile-card">
-            <button class="profile-image-container">
-                <img class="circle-profile-img" src="static/img/blue profile.png" alt="عکس پروفایل">
-                <span class="edit-profile-img-btn"><img class="edit-prof-img-icon" src="static/img/icons/edit.png" alt="ادیت کردن عکس پروفایل"></span>
-            </button>
+    <section class="desktop-main main-content">
+        <div class="right-desktop-content">
+            <!-- profile cards part starts -->
+            <div class="profile-card">
+                <div class="profile-personal-info">
+                    <button class="profile-image-container">
+                        <img class="circle-profile-img" src="static/img/blue profile.png" alt="عکس پروفایل">
+                        <span class="edit-profile-img-btn"><img class="edit-prof-img-icon" src="static/img/icons/edit.png" alt="ادیت کردن عکس پروفایل"></span>
+                    </button>
 
-            <div class="texual-info-container">
-                <h2 class="user-name">یاسمن بلند</h2>
-                <p class="user-email">yasamanboland@gmail.com</p>
+                    <div class="texual-info-container">
+                        <h2 class="user-name">یاسمن بلند</h2>
+                        <p class="user-email">yasamanboland@gmail.com</p>
+                    </div>
+
+                    <div class="edit-profile">
+                        <a href="#"><img class="edit-profile-icon" src="static/img/icons/edit2.png" alt="ادیت کردن پروفایل"></a>
+                    </div>
+                </div>
+
+                <div class="desktop-progress-bar desktop-item">
+                    <div class="progress-bar-container">
+                        <span id="level">Lv2</span>
+                        <div class="progress-bar"></div>
+                    </div>
+            
+                    <div class="score">
+                        <span class="score-title">دانای کل</span>
+                        <span id="total-score">1006 امتیاز</span>
+                    </div>
+                </div>
             </div>
+            <!-- profile cards part ends -->
 
-            <div class="edit-profile">
-                <a href="#"><img class="edit-profile-icon" src="static/img/icons/edit2.png" alt="ادیت کردن پروفایل"></a>
+
+            <!-- access links part starts -->
+            <div class="access-links">
+                <div class="access-links-opt"><a href="#"><span>کوییزها(0) </span><img src="static/img/icons/back-black.png" alt=""></a></div>
+                <div class="access-links-opt"><a href="#"><span>دانلودها(10) </span><img src="static/img/icons/back-black.png" alt=""></a></div>
+                <div class="access-links-opt"><a href="#"><span>منابع من(3)</span><img src="static/img/icons/back-black.png" alt=""></a></div>
+                <div class="access-links-opt"><a href="#"><span>خروج از حساب کاربری</span> <img src="static/img/icons/exit black.png" alt=""></a></div>
             </div>
+            <!-- access links part ends -->
         </div>
-        <!-- profile cards part ends -->
 
 
-        <!-- access links part starts -->
-        <div class="access-links">
-            <div class="access-links-opt"><a href="#"><span>کوییزها(0) </span><img src="static/img/icons/back-black.png" alt=""></a></div>
-            <div class="access-links-opt"><a href="#"><span>دانلودها(10) </span><img src="static/img/icons/back-black.png" alt=""></a></div>
-            <div class="access-links-opt"><a href="#"><span>منابع من(3)</span><img src="static/img/icons/back-black.png" alt=""></a></div>
-            <div class="access-links-opt"><a href="#"><span>خروج از حساب کاربری</span> <img src="static/img/icons/exit black.png" alt=""></a></div>
-        </div>
-        <!-- access links part ends -->
+
+        <div class="left-desktop-content">
+            <!-- quick access links part starts -->
+            <div class="quick-access">
+                <div class="quick-access-title-container">
+                    <h2 class="quick-access-title">دسترسی سریع</h2>
+                    <img class="desktop-item" src="static/img/svg/Green Line.svg" alt="خط سبز">
+                </div>
+
+                <div class="quick-access-opt-container">
+                    <a href="#"><div class="quick-access-opt">
+                        <img src="static/img/icons/icons8-bot-48 1.svg" alt="ربات">
+                        <h5 class="opt-title">بات تلگرام</h5>
+                    </div></a>
+
+                    <a href="#"><div class="quick-access-opt">
+                        <img src="static/img/icons/icons8-print-file-48 1.svg" alt="اسکنر">
+                        <h5 class="opt-title">اسکنر</h5>
+                    </div></a>
+
+                    <a href="#"><div class="quick-access-opt">
+                        <img src="static/img/icons/icons8-quiz-48 1.svg" alt="کوییز">
+                        <h5 class="opt-title">کوییز آنلاین</h5>
+                    </div></a>
+                </div>
+            </div>
+            <!-- quick access links part ends -->
 
 
-        <!-- quick access links part starts -->
-        <div class="quick-access">
-            <h2 class="quick-access-title">دسترسی سریع</h2>
-            <div class="quick-access-opt-container">
-                <a href="#"><div class="quick-access-opt">
-                    <img src="static/img/icons/bot.png" alt="">
-                    <h5 class="opt-title">بات تلگرام</h5>
-                </div></a>
 
-                <a href="#"><div class="quick-access-opt">
-                    <img src="static/img/icons/scanner.png" alt="">
-                    <h5 class="opt-title">اسکنر</h5>
-                </div></a>
-
-                <a href="#"><div class="quick-access-opt">
-                    <img src="static/img/icons/quiz.png" alt="">
-                    <h5 class="opt-title">کوییز آنلاین</h5>
+            <!-- upload parts starts -->
+            <div class="upload-file-box">
+                <p class="desktop-item">همین الان 200 امتیاز بگیر!</p>
+                <p class="desktop-item">با آپلود هر منبع می‌تونی 200 امتیاز بگیری و توی کوییزای بیشتری شرکت کنی!</p>
+                <a href="#"><div  class="upload-file">
+                    کمک به بقیه(آپلود جزوه)
                 </div></a>
             </div>
+            <!-- upload parts ends -->
         </div>
-        <!-- quick access links part ends -->
-
-
-        <!-- upload parts starts -->
-        <a href="#"><div  class="upload-file">
-            کمک به بقیه(آپلود جزوه)
-        </div></a>
-        <!-- upload parts ends -->
     </section>
     <!-- main content section ends -->
 
@@ -112,5 +165,11 @@
         </div>
     </footer>
     <!-- footer section starts -->
+
+
+    <!-- linking js files -->
+    <script type='text/javascript' src='./static/js/jquery-3.7.0.min.js'></script>
+
+    <script src="static/js/profile.js"></script>
 </body>
 </html>

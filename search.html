@@ -9,10 +9,10 @@
     <meta name="robots" content="noindex">
     
     <!-- styles links -->
-    <link rel="stylesheet" href="static/css/main.css">
-    <link rel="stylesheet" href="static/css/responsive.css">
+    <link rel="stylesheet" href="static/css/main.css?v=1.1">
+    <link rel="stylesheet" href="static/css/responsive.css?v=1.1">
     <link rel="stylesheet" href="static/css/config.css">
-    <link rel="stylesheet" href="static/css/search.css?v=1.1">
+    <link rel="stylesheet" href="static/css/search.css?v=1.2">
 
     <!-- page title -->
     <title>جستجو</title>
@@ -32,7 +32,7 @@
 
         <div class="desktop-header-left-items">
             <a href="#" class="my-library-btn-container">
-                <img src="static/img/icons/bookmark.png" alt="bookmark">
+                <img src="static/img/icons/bookmark-black.svg" alt="bookmark">
                 <span class="my-library-btn" href="#">کتابخانه من</span>
             </a>
 
@@ -77,10 +77,10 @@
         <div class="filters">
             <img src="static/img/icons/filter icon.png" alt="آیکون فیلترها">
             <div class="filter-opt-container">
-                <button class="filter-opt filtered">نوع منبع</button>
-                <button class="filter-opt">درس</button>
-                <button class="filter-opt">استاد</button>
-                <button class="filter-opt">دانشگاه</button>
+                <button class="filter-opt" title="نوع منبع">نوع منبع</button>
+                <button class="filter-opt" title="درس">درس</button>
+                <button class="filter-opt" title="استاد">استاد</button>
+                <button class="filter-opt filtered" title="دانشگاه">دانشگاه صنعتی شیراز</button>
             </div>
         </div>
         <!-- filters option parts ends -->
@@ -173,6 +173,7 @@
     <!-- footer section starts -->
 
     <script type='text/javascript' src="static/js/library/sweetalert.min.js"></script>
+    <script type='text/javascript' src='./static/js/jquery-3.7.0.min.js'></script>
 
     <script src="static/js/search.js"></script>
 </body>

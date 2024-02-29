@@ -7,16 +7,39 @@
 //     confirmButtonText: 'Cool'
 // })
 
-swal({
-    title: "مطمئنی ؟",
-    text: "میخوای از حساب کاربریت خارج بشی؟",
-    icon: "error",
-    dangerMode: true,
-    buttons: {
-        cancel: "نه!",
-        catch: {
-            text: "آره، بیا بیرون!",
-            value: true,
-        }
-    },
+
+
+$(".filters button").click(function() {
+    let key = $(this).attr("title");
+    swal({
+        title: `نام ${key} رو سرچ کن:`,
+        icon: "info",
+        buttons: {
+            cancel: "بیخیال!",
+            confirm: {
+                /*
+                 * We need to initialize the value of the button to
+                 * an empty string instead of "true":
+                 */
+                // value: "رضایی",
+                text: "تایید",
+                className: "bg-green"
+              },
+        },
+        content: {
+            element: "input",
+            attributes: {
+              placeholder: `نام ${key}`,
+              type: "text",
+            },
+          },
+    });
+    $(".swal-content").append(`
+        <ul class="suggestions">
+            <li>سیستم های دیجیتال</li>
+            <li>طراحی الگوریتم</li>
+            <li>سیستم های دیجیتال</li>
+            <li>سیستم های دیجیتال</li>
+        </ul>
+    `)
 })
