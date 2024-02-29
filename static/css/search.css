@@ -233,10 +233,19 @@ body{
     body{
         margin-bottom: 1rem;
     }
+    
+    /* hide main content search form */
+    .search-form{
+        display: none;
+    }
 
     /* booklets cards styles */
+    .booklet-cards-container{
+        gap: 2rem;
+    }
+
     .booklet-card {
-        width: 27%;
+        width: 28%;
     }
 
     .booklet-title{
@@ -250,12 +259,8 @@ body{
     .details-btn{
         font-size: 14px;
         padding: 4px 0;
+        width: 120px;
     }
-
-    /* hide main content search form */
-    .search-form{
-        display: none;
-    }
+    
 }
-
 
