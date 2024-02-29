@@ -60,6 +60,7 @@ body{
     font-family: 'Pinar';
     font-size: 18px;
     margin: 0 !important;
+    color: #000;
 }
 
 .user-email{
@@ -181,7 +182,6 @@ body{
     .desktop-main{
         display: flex;
         justify-content: space-between;
-        align-items: center;
     }
 
 
@@ -196,6 +196,12 @@ body{
         justify-content: center;
         align-items: center;
         gap: 0.5rem;
+    }
+
+    .texual-info-container{
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
     }
 
     .desktop-progress-bar{
@@ -219,10 +225,26 @@ body{
         margin-top: 0.5rem;
         width: 74%;
     }
+
+    .quick-access-title{
+        
+    }
+
     .quick-access-title-container{
         display: flex;
         align-items: center;
         justify-content: space-between;
         gap: 1rem;
     }
+
+    .quick-access-opt{
+        width: 130px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    
 }
