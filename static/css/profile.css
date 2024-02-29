@@ -13,9 +13,6 @@ body{
 .profile-card{
     margin-top: 0.8rem;
     padding: 0.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: #fff;
     border: 2px solid var(--secondary-color);
     border-radius: 10px;
@@ -24,7 +21,7 @@ body{
 
 .profile-personal-info{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -180,5 +177,7 @@ body{
 }
 
 @media screen and (min-width: 900px){
-
+    .desktop-item{
+        display: ;
+    }
 }
