@@ -3,6 +3,10 @@ body{
     margin-bottom: 70px;
 }
 
+.desktop-item{
+    display: none;
+}
+
 
 
 /* profile card styles  */
