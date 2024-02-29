@@ -155,6 +155,37 @@ body{
     font-family: 'Estedad';
 }
 
+/* Pop-Ups */
+.bg-green {
+    background-color: var(--secondary-color);
+}
+
+.bg-green:hover{
+    background-color: var(--secondary-color) !important;
+}
+
+.swal-content {
+    position: relative;
+}
+
+.swal-content .suggestions {
+    display: none;
+    width: calc(100% - 43px);
+    top: 31px;
+    background-color: var(--secondary-color);
+}
+
+.swal-content__input{
+    border: 1px solid var(--secondary-color);
+}
+
+
+.swal-button--cancel:hover {
+    background-color: red !important;
+    color: #fff !important;
+}
+
+
 
 
 
@@ -226,10 +257,5 @@ body{
         display: none;
     }
 }
-
-@media screen and (min-width: 1200px){
-    
-}
-
 
 

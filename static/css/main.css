@@ -15,18 +15,7 @@ html::-webkit-scrollbar-thumb{
     padding: 0 1rem 1rem 1rem;
 }
 
-/* Pop-Ups */
-.bg-green {
-    background-color: var(--secondary-color);
-}
 
-.swal-content {
-    position: relative;
-}
-
-.swal-content .suggestions {
-    display: block;
-}
 
 /* body styles with custom footer and header */
 .custom-body{
