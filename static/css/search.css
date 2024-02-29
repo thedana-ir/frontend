@@ -3,10 +3,6 @@ body{
     margin-bottom: 70px;
 }
 
-.main-content{
-    padding: 0rem 1rem 1rem 1rem;
-}
-
 /* search form styles */
 .search-form{
     margin-top: 0.6rem;
@@ -224,28 +220,11 @@ body{
         font-size: 14px;
         padding: 4px 0;
     }
-
-
-    /* booklets cards styles
-    .booklet-card {
-        width: 29%;
-    }
-
-    .booklet-title{
-        font-size: 1.2rem;
-    }
-
-    .course-name , .professor-name{
-        font-size: 1rem;
-    }
-
-    .details-btn{
-        font-size: 14px;
-    }
-} */
-
 }
 
+@media screen and (min-width: 1200px){
+    
+}
 
 
 

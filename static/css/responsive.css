@@ -25,7 +25,7 @@
 
     .desktop-personal-header{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         background-color: rgba(255, 255, 255, 0.35);
         padding: 1.5rem 1rem;
@@ -113,9 +113,19 @@
 
 
 @media screen and (min-width: 1200px){
+    .main-content{
+        padding: 0rem 7rem 1rem 7rem;
+    }
+
+    /* desktop header */
+    .desktop-personal-header{
+        padding: 1.5rem 7rem;
+    }
+
     /* search form size */
     .desktop-search-form{
         width: 37rem;
         margin-right: 6rem;
     }
+
 }

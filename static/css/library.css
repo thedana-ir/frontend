@@ -9,7 +9,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 1rem 1rem 1rem;
 }
 
 /* my resourcess part styles */
@@ -275,11 +274,6 @@ body{
 
 @media screen and (min-width: 1200px){
     /* booklets cards styles */
-    /* .booklet-cards-container{
-        justify-content: center;
-        gap: 3rem;
-    } */
-
     .booklet-card {
         width: 22%;
     }

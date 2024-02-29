@@ -177,7 +177,9 @@ body{
 }
 
 @media screen and (min-width: 900px){
-    .desktop-item{
-        display: ;
+    .desktop-main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }

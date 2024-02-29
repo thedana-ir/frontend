@@ -11,6 +11,10 @@ html::-webkit-scrollbar-thumb{
     background: var(--gray);
 } */
 
+.main-content{
+    padding: 0 1rem 1rem 1rem;
+}
+
 /* Pop-Ups */
 .bg-green {
     background-color: var(--secondary-color);
