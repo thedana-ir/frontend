@@ -220,6 +220,11 @@ body{
         font-size: 14px;
         padding: 4px 0;
     }
+
+    /* hide main content search form */
+    .search-form{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1200px){
