@@ -183,7 +183,11 @@ body{
     /* header downloads/uploads button */
     .selected-btn{
         padding: 8px 40px;
-        font-size: 24px;
+        font-size: 18px;
+    }
+
+    .unselected-btn{
+        font-size: 18px;
     }
 
     /* booklet styles */
@@ -203,12 +207,6 @@ body{
 
 
 @media screen and (min-width: 650px){
-    /* header downloads/uploads button */
-    .selected-btn{
-        padding: 8px 50px;
-        font-size: 24px;
-    }
-
     /* my resources part styles */
     .my-resources{
         width: 36.5rem;
@@ -281,7 +279,7 @@ body{
 @media screen and (min-width: 1200px){
     /* booklets cards styles */
     .booklet-card {
-        width: 22%;
+        width: 27%;
     }
 
     .booklet-title{
