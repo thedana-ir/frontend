@@ -126,7 +126,6 @@ body{
     border: none !important;
     width: 100%;
     color: #fff;
-    font-size: 16px;
     cursor: pointer;
 }
 
@@ -164,7 +163,7 @@ body{
     padding: 8px 0;
     width: 100%;
     cursor: pointer;
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 
 
@@ -183,20 +182,20 @@ body{
     /* header downloads/uploads button */
     .selected-btn{
         padding: 8px 40px;
-        font-size: 18px;
+        /* font-size: 18px; */
     }
 
     .unselected-btn{
-        font-size: 18px;
+        /* font-size: 18px; */
     }
 
     /* booklet styles */
     .booklet-title{
-        font-size: 1.7rem;
+        /* font-size: 1.7rem; */
     }
 
     .course-name , .professor-name{
-        font-size: 1.3rem;
+        /* font-size: 1.3rem; */
     }
 
     /* search form styles */
@@ -229,11 +228,11 @@ body{
     }
 
     .booklet-title{
-        font-size: 1.4rem;
+        /* font-size: 1.4rem; */
     }
 
     .course-name , .professor-name{
-        font-size: 1rem;
+        /* font-size: 1rem; */
     }
 }
 
@@ -255,15 +254,15 @@ body{
     }
 
     .booklet-title{
-        font-size: 1.2rem;
+        /* font-size: 1.2rem; */
     }
 
     .course-name , .professor-name{
-        font-size: 1rem;
+        /* font-size: 1rem; */
     }
 
     .card-btns a , .add-comment-btn , .booklet-card input{
-        font-size: 14px;
+        /* font-size: 14px; */
         padding: 4px 0;
     }
 

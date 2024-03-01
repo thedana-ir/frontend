@@ -66,7 +66,7 @@ body{
     display: inline-block;
     border: none;
     font-family: 'Pinar';
-    font-size: 14px;
+    /* font-size: 14px; */
     font-weight: 900;
     color: #565656;
     background-color: rgba(255, 255, 255, 0.66);
@@ -132,7 +132,7 @@ body{
 .points span{
     font-weight: 1000;
     padding-top: 0.5rem;
-    font-size: 20px;
+    /* font-size: 20px; */
     font-family: 'Estedad';
 }
 
@@ -151,7 +151,7 @@ body{
     border-radius: 5px;
     padding: 4px 0;
     font-weight: 900;
-    font-size: 18px;
+    /* font-size: 18px; */
     font-family: 'Estedad';
 }
 
@@ -197,11 +197,11 @@ body{
 /* responsive styles */
 @media screen and (min-width: 500px){
     .booklet-title{
-        font-size: 1.7rem;
+        /* font-size: 1.7rem; */
     }
 
     .course-name , .professor-name{
-        font-size: 1.3rem;
+        /* font-size: 1.3rem; */
     }
 }
 
@@ -217,11 +217,11 @@ body{
     }
 
     .booklet-title{
-        font-size: 1.2rem;
+        /* font-size: 1.2rem; */
     }
 
     .course-name , .professor-name{
-        font-size: 1rem;
+        /* font-size: 1rem; */
     }
 }
 
@@ -252,15 +252,15 @@ body{
     }
 
     .booklet-title{
-        font-size: 1.1rem;
+        /* font-size: 1.1rem; */
     }
 
     .course-name , .professor-name{
-        font-size: 0.9rem;
+        /* font-size: 0.9rem; */
     }
 
     .details-btn{
-        font-size: 14px;
+        /* font-size: 14px; */
         padding: 4px 0;
         width: 120px;
     }

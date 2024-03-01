@@ -60,7 +60,7 @@
         font-family: 'Pinar';
         background-color: var(--secondary-color);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
-        font-size: 16px;
+        /* font-size: 16px; */
         font-weight: 900;
         border: none;
         border-radius: 5px;
