@@ -282,15 +282,15 @@ body{
     }
 
     .booklet-title{
-        font-size: 1.2rem;
+        /* font-size: 1.2rem; */
     }
 
     .course-name , .professor-name{
-        font-size: 1rem;
+        /* font-size: 1rem; */
     }
 
     .card-btns a , .add-comment-btn , .booklet-card input{
-        font-size: 14px;
+        /* font-size: 14px; */
         padding: 4px 0;
     }
 }
