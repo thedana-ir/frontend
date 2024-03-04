@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="static/css/config.css">
     <link rel="stylesheet" href="static/css/newhome.css">
 
+    <!-- swiperjs library style link -->
+    <link rel="stylesheet" href="static/css/swiper-bundle.min.css">
+
 
     <title>خانه</title>
 </head>
@@ -61,6 +64,27 @@
         </div>
     </header>
     <!-- desktop header section ends -->
+    
+    <!-- main content section starts -->
+    <section class="main-content">
+        <div class="mySwiper swiper">
+            <div class="swiper-wrapper">
+                <!-- slider slides -->
+                <div class="swiper-slide"><img src="static/img/slider img.jpg" alt="صفحه 1 اسلایدر"></div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+            </div>
+            <!-- slider pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- main content section ends -->
 
     <!-- footer section starts(main html code) -->
     <footer class="fixed-footer">
@@ -71,5 +95,20 @@
         </div>
     </footer>
     <!-- footer section starts -->
+
+    
+
+    <!-- swiperjs library script -->
+    <script src="static/js/library/swiper-bundle.min.js"></script>
+
+    <!-- slider js -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+        },
+        });
+    </script>
 </body>
 </html>
