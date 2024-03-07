@@ -36,6 +36,32 @@ object-fit: cover;
     display: none;
 }
 
+/* tools styles */
+.tools-box{
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.hiboos-tool{
+    border: 2px solid var(--secondary-color);
+    background-color: #fff;
+    border-radius: 8px;
+    width: 76px;
+    height: 70px;
+    margin-left: 1rem;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.tool-title{
+    margin: 0 !important;
+    font-size: 13px;
+    color: black !important;
+}
+
 
 
 
@@ -75,7 +101,7 @@ object-fit: cover;
 
     .swiper{
         width: 100%;
-        height: 15rem;
+        height: 20rem;
         border-radius: 0;
         border-left: none;
         border-right: none;
