@@ -49,8 +49,7 @@ object-fit: cover;
 .scrollable-box{
     overflow-x: auto;
     white-space: nowrap;
-    padding-bottom: 0.2rem;
-    margin: 0 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .scrollable-box-item{
