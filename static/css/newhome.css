@@ -36,13 +36,13 @@ object-fit: cover;
     display: none;
 }
 
-/* tools styles */
-.tools-box{
+/* scrollable boxes styles */
+.scrollable-box{
     overflow-x: auto;
     white-space: nowrap;
 }
 
-.hiboos-tool{
+.scrollable-box-item{
     border: 2px solid var(--secondary-color);
     background-color: #fff;
     border-radius: 8px;
@@ -56,7 +56,7 @@ object-fit: cover;
     gap: 0.2rem;
 }
 
-.tool-title{
+.box-item-title{
     margin: 0 !important;
     font-size: 13px;
     color: black !important;
