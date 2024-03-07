@@ -3,7 +3,6 @@ body{
     margin-bottom: 70px;
 }
 
-
 /* slider styles */
 .swiper {
     margin-top: 1rem;
@@ -37,9 +36,21 @@ object-fit: cover;
 }
 
 /* scrollable boxes styles */
+
+.title-container img{
+    display: none;
+}
+
+.box-title{
+    color: #000;
+    padding-right: 1rem;
+}
+
 .scrollable-box{
     overflow-x: auto;
     white-space: nowrap;
+    padding-bottom: 0.2rem;
+    margin: 0 1rem;
 }
 
 .scrollable-box-item{
@@ -61,6 +72,22 @@ object-fit: cover;
     font-size: 13px;
     color: black !important;
 }
+
+/* .scrollable-box::-webkit-scrollbar{
+    width: 3px;
+    background: transparent;
+    border-radius: 30px;
+}
+
+.scrollable-box::-webkit-scrollbar-track{
+    background: transparent;
+    width: 0.5rem;
+}
+
+.scrollable-box::-webkit-scrollbar-thumb{
+    background: #505050;
+    width: 0.5rem;
+}  */
 
 
 
@@ -107,4 +134,56 @@ object-fit: cover;
         border-right: none;
     }
 
+    /* tools box styles */
+    .tools-container{
+        margin-top: 2rem;
+    }
+    
+    .scrollable-box{
+        margin: 0 2.5rem;
+    }
+        
+    .scrollable-box-item{
+        padding: 0 1rem;
+        width: 100px;
+        flex-direction: row;
+        gap: 0.8rem;
+    }
+
+    .box-title{
+        padding: 0;
+    }
+
+    .title-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 0 1rem;
+    }
+
+    .title-container img{
+        display: block;
+        width: 85%;
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    .tools-container{
+        padding: 1.5rem 6rem;
+    }
+}
+
+
+@media screen and (min-width: 1600px){
+    .title-container img{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 2300px){
+    .title-container img{
+        width: 92%;
+    }
 }
