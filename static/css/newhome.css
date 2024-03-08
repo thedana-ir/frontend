@@ -212,6 +212,50 @@ object-fit: cover;
         width: 80%;
     }
 
+
+    /* upload file part styles */
+    .desktop-item{
+        display: block;
+    }
+
+    .desktop-text-container{
+       display: flex;
+       flex-direction: column; 
+       align-items: flex-start;
+       justify-content: center;
+       gap: 0.5rem;
+    }
+
+    .upload-file-box{
+        height: fit-content;
+        margin: 1.8rem 1rem 0 1rem;
+        background-color: var(--secondary-color);
+        border: 2.5px solid #000;
+        padding: 2rem;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .upload-file-box p{
+        margin: 0;
+        text-align: center;
+        color: #fff;
+    }
+
+    .upload-file-box p:first-child{
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 44.8px;
+    }
+
+    .upload-file{
+        margin-top: 0 !important;
+        width: 280px;
+        border: 2px solid #000;
+    }
+
 }
 
 @media screen and (min-width: 1200px){
@@ -222,6 +266,10 @@ object-fit: cover;
     .fields-container img{
         display: block;
         width: 75%;
+    }
+
+    .upload-file-box{
+        margin: 1.8rem 6rem;
     }
 }
 
