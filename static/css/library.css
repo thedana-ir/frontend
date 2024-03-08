@@ -26,6 +26,10 @@ body{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+.my-resources button {
+    font-size: 16px;
+}
+
 /* bottuns styles */
 .unselected-btn{
     padding: 8px 35px;
@@ -182,21 +186,8 @@ body{
     /* header downloads/uploads button */
     .selected-btn{
         padding: 8px 40px;
-        /* font-size: 18px; */
     }
 
-    .unselected-btn{
-        /* font-size: 18px; */
-    }
-
-    /* booklet styles */
-    .booklet-title{
-        /* font-size: 1.7rem; */
-    }
-
-    .course-name , .professor-name{
-        /* font-size: 1.3rem; */
-    }
 
     /* search form styles */
     .search-form{
@@ -226,14 +217,6 @@ body{
     .booklet-card {
         width: 43%;
     }
-
-    .booklet-title{
-        /* font-size: 1.4rem; */
-    }
-
-    .course-name , .professor-name{
-        /* font-size: 1rem; */
-    }
 }
 
 @media screen and (min-width: 800px){
@@ -251,14 +234,6 @@ body{
     /* booklets cards styles */
     .booklet-card {
         width: 27%;
-    }
-
-    .booklet-title{
-        /* font-size: 1.2rem; */
-    }
-
-    .course-name , .professor-name{
-        /* font-size: 1rem; */
     }
 
     .card-btns a , .add-comment-btn , .booklet-card input{
