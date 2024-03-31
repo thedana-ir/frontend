@@ -40,6 +40,31 @@ body{
 }
 
 
+/* quiz specification */
+.quiz-title{
+    font-family: 'Pinar';
+    text-align: center;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.spec-title{
+    margin: 0;
+    font-family: 'Pinar';
+    color: #000;
+    font-size: 17px;
+}
+
+.spec-content{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: 'Pinar' !important;
+    color: var(--tertiary-color);
+}
+
+.important{
+    color: red;
+}
 
 
 
