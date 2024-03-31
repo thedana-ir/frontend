@@ -6,9 +6,11 @@ $(document).ready(function() {
         // If window width is less than 900px, hide the elements
         if (windowWidth < 900) {
             $('.desktop-item').hide();
+            $('.mobile-item').show();
         } else {
             // Otherwise, show the elements
             $('.desktop-item').show();
+            $('.mobile-item').hide();
         }
     }
 

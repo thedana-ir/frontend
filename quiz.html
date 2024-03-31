@@ -34,21 +34,49 @@
             <span id="total-score">1006 امتیاز</span>
         </div>
     </header>
-    <!-- mobile header section ends -->
+    <!-- mobile header section ends --><!-- desktop header section starts(main html code) -->
+    <header class="desktop-personal-header">
+        <div class="header-logo-container">
+            <img src="static/landing/images/Hiboo-black.svg" class="logo" alt="هیبو">
+        </div>
+
+        <form class="desktop-search-form">
+            <img class="search-icon" src="static/img/icons/search-gray.png" alt="آیکون سرچ">
+            <input class="search-bar-input" type="text" required placeholder="جستجو در هیبو">
+            <input class="desktop-search-form-submit" type="submit" value="جستجو">
+        </form>
+
+        <div class="desktop-header-left-items">
+            <a href="#" class="my-library-btn-container">
+                <img src="static/img/icons/bookmark-black.svg" alt="bookmark">
+                <span class="my-library-btn" href="#">کتابخانه من</span>
+            </a>
+
+            <div class="profile-img">
+                <a href="#"><img class="header-profile-img" src="static/img/green profile.png" alt="عکس پروفایل"></a>
+            </div>
+        </div>
+    </header>
+    <!-- desktop header section ends -->
+
+
 
     <!-- main content section starts -->
     <section class="main-content">
         <!-- remaining quizzes -->
-        <div class="remaining-quizzes-part">
+        <div class="quiz-page-header">
             <!-- mobile -->
-            <p class="mobile-remaining-quizzes-txt remaining-quizzes">
+            <p class="mobile-item remaining-quizzes-title">
                 فقط  2  کوییز رایگان از این سطح برات باقی مونده
             </p>
 
             <!-- desktop -->
-            <p class="desktop-remaining-quizzes-txt remaining-quizzes">
-                فقط  2  کوییز رایگان از این سطح برات باقی مونده، اگه میخوای کوییزهای بیشتری برات باز بشه <a href="#">اینجا</a> راجب شرایطش بخون
+            <p class="desktop-item remaining-quizzes-title">
+                فقط  2  کوییز رایگان از این سطح برات باقی مونده، اگه میخوای کوییزهای بیشتری برات باز بشه <a class="here-link" href="#">اینجا</a> راجب شرایطش بخون
             </p>
+
+            <!-- back icon -->
+            <a href="#"><img src="static/img/icons/back-black-icon.svg" alt="back icon"></a>
         </div>
         <!-- remaining quizzes -->
 
@@ -66,6 +94,8 @@
     <!-- footer section starts -->
 
     <!-- js linkes -->
+    <script type='text/javascript' src='./static/js/jquery-3.7.0.min.js'></script>
+
     <script src="static/js/quiz.js"></script>
 </body>
 </html>
