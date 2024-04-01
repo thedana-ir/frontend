@@ -66,7 +66,67 @@ body{
     color: red;
 }
 
+/* suggestion cards */
+.suggestion-cards-container{
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 
+.suggestion-title{
+    color: #000;
+}
+
+.suggestion-cards{
+    background-color: #fff;
+    border: 2px solid var(--secondary-color);
+    width: 255px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-details h3{
+    color: #000;
+}
+
+.points span{
+    font-weight: 1000;
+    padding-top: 0.5rem;
+    /* font-size: 20px; */
+    font-family: 'Estedad';
+}
+
+.points{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.points span{
+    font-weight: 1000;
+    padding-top: 0.5rem;
+    /* font-size: 20px; */
+    font-family: 'Estedad';
+}
+
+.points-title{
+    margin: 0;
+    color: #000;
+}
+
+.card-score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
