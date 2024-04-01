@@ -66,6 +66,16 @@ body{
     color: red;
 }
 
+/* description */
+.description{
+    background-color: #E9FBDB;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px 17px;
+    font-weight: 900;
+    font-family: 'Pinar';
+}
+
 /* quiz btns */
 .quiz-btn{
     background-color: #fff;
