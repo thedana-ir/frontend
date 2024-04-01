@@ -77,6 +77,12 @@ body{
 }
 
 /* quiz btns */
+.quiz-btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .quiz-btn{
     background-color: #fff;
     text-align: center;
@@ -85,6 +91,7 @@ body{
     padding: 5px 0;
     font-family: 'Pinar' !important;
     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.25);
+    width: 80%;
 }
 
 .start-quiz{
@@ -145,13 +152,6 @@ body{
     gap: 0.3rem;
 }
 
-.points span{
-    font-weight: 1000;
-    padding-top: 0.5rem;
-    /* font-size: 20px; */
-    font-family: 'Estedad';
-}
-
 .points-title{
     margin: 0;
     color: #000;
@@ -164,10 +164,67 @@ body{
     align-items: center;
 }
 
+/* quiz result review */
+.table{
+    margin-bottom: 1rem;
+    border: 1px solid var(--green);
+    border-radius: 5px;
+}
+
+.table-header, .table-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+}
+
+.table-header span, .table-data span{
+    width: 34%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.table-header{
+    font-family: 'Pinar';
+    background-color: #E9FBDB;
+    font-weight: 900;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid var(--green);
+}
+
+.table-data{
+    font-weight: 600;
+    font-family: 'Estedad';
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+}
+
+.table-data span:nth-child(2), .table-header span:nth-child(2) {
+    border-right: 2px solid var(--green);
+    border-left: 2px solid var(--green);
+} 
 
 
 @media screen and (min-width: 900px){
     .remaining-quizzes-title{
         width: 90%;
+    }
+
+    /* main content */
+    .desktop-part1{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+
+    .quiz-btn-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .quiz-btn{
+        width: 40%;
     }
 }   
