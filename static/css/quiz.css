@@ -34,7 +34,7 @@ body{
 }
 
 .here-link{
-    color: red;
+    color: var(--red);
     text-decoration: underline;
     font-family: 'Pinar' !important;
 }
@@ -63,7 +63,7 @@ body{
 }
 
 .important{
-    color: red;
+    color: var(--red);
 }
 
 /* description */
@@ -76,6 +76,78 @@ body{
     font-family: 'Pinar';
 }
 
+/* quiz result review */
+.table{
+    margin-bottom: 1rem;
+    border: 1px solid var(--green);
+    border-radius: 5px;
+}
+
+.table-header, .table-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+}
+
+.table-header span, .table-data span{
+    width: 34%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.table-header{
+    font-family: 'Pinar';
+    background-color: #E9FBDB;
+    font-weight: 900;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid var(--green);
+}
+
+.table-data{
+    font-weight: 600;
+    font-family: 'Estedad';
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+}
+
+.table-data span:nth-child(2), .table-header span:nth-child(2) {
+    border-right: 2px solid var(--green);
+    border-left: 2px solid var(--green);
+} 
+
+/* result review guide */
+.guide-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.guide{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.guide-color{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.green{
+    background-color: var(--green);
+}
+
+.red{
+    background-color: var(--red);
+}
+
+.blue{
+    background-color: var(--blue);
+}
 /* quiz btns */
 .quiz-btn-container{
     display: flex;
@@ -164,45 +236,6 @@ body{
     align-items: center;
 }
 
-/* quiz result review */
-.table{
-    margin-bottom: 1rem;
-    border: 1px solid var(--green);
-    border-radius: 5px;
-}
-
-.table-header, .table-data{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 11px;
-}
-
-.table-header span, .table-data span{
-    width: 34%;
-    text-align: center;
-    padding: 5px 0;
-}
-
-.table-header{
-    font-family: 'Pinar';
-    background-color: #E9FBDB;
-    font-weight: 900;
-    border-radius: 5px 5px 0 0;
-    border-bottom: 1px solid var(--green);
-}
-
-.table-data{
-    font-weight: 600;
-    font-family: 'Estedad';
-    background-color: #fff;
-    border-radius: 0 0 5px 5px;
-}
-
-.table-data span:nth-child(2), .table-header span:nth-child(2) {
-    border-right: 2px solid var(--green);
-    border-left: 2px solid var(--green);
-} 
 
 
 @media screen and (min-width: 900px){
