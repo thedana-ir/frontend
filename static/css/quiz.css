@@ -137,6 +137,7 @@ body{
     border-radius: 50%;
 }
 
+/* also for colors of the questions */
 .green{
     background-color: var(--green);
 }
@@ -147,6 +148,26 @@ body{
 
 .blue{
     background-color: var(--blue);
+}
+
+
+/* questions results */
+.answer-table-container{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    margin-bottom: 2rem;
+}
+
+.q-num{
+    margin-bottom: 0.8rem;
+    width: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
 }
 
 
