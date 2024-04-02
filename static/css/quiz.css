@@ -238,6 +238,26 @@ body{
     align-items: center;
 }
 
+/* customize cards scrollbar */
+/* Track */
+.suggestion-cards-container::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+/* Handle */
+.suggestion-cards-container::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+/* Handle on hover */
+.suggestion-cards-container::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+
+
+
 
 
 @media screen and (min-width: 900px){
@@ -249,7 +269,7 @@ body{
     .desktop-part1{
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     
 
