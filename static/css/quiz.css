@@ -260,22 +260,17 @@ body{
 }
 
 /* customize cards scrollbar */
-/* Track */
-.suggestion-cards-container::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-}
-   
-/* Handle */
-.suggestion-cards-container::-webkit-scrollbar-thumb {
-    background: #888; 
-}
-  
-/* Handle on hover */
-.suggestion-cards-container::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+.suggestion-cards-container::-webkit-scrollbar{
+    width: 0.5rem;
 }
 
+.suggestion-cards-container::-webkit-scrollbar-track{
+    background: transparent;
+}
 
+.suggestion-cards-container::-webkit-scrollbar-thumb{
+    background: var(--gray);
+}
 
 
 
