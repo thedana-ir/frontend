@@ -268,6 +268,8 @@ body{
 @media screen and (min-width: 1200px){
     .all-content{
         display: flex; 
+        justify-content: space-between;
+
     }
 /* desktop part1 */
     .desktop-part1{
@@ -275,6 +277,7 @@ body{
         background-color: #fff;
         border-radius: 10px;
         padding: 0 40px 15px 0;
+        width: 65%;
     }
 
     .quiz-title{
@@ -282,15 +285,28 @@ body{
     }
 
 /* desktop part2 */
+    .desktop-part2{
+        width: 28%;
+    }
     /* suggestion cards */
     .suggestion-cards-container{  
         gap: 1rem;  
         display: block;
-        height: 15rem;
-        width: fit-content;
+        height: 11rem;
+        width: 100%;
     }
 
     .suggestion-cards{
         margin-bottom: 1rem;
+        width: 90%;
+        overflow-x: visible;
+    }
+
+    .quiz-btn{
+        width: 100%;
+    }
+
+    .description{
+        margin-top: 0;
     }
 }
