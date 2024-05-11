@@ -126,6 +126,40 @@ body{
 }
 
 
+/* filters styles */
+.filters{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.filter-opt-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 0 0.2rem;
+}
+
+.filter-opt{
+    display: inline-block;
+    border: none;
+    font-family: 'Pinar';
+    /* font-size: 14px; */
+    font-weight: 900;
+    color: #565656;
+    background-color: rgba(255, 255, 255, 0.66);
+    border-radius: 5px;
+    padding: .2rem 1rem;
+    cursor: pointer;
+}
+
+.filtered{
+    background-color: #fff;
+}
 
 
 

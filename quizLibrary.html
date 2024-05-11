@@ -65,7 +65,7 @@
     <!-- main content section starts -->
     <section class="main-content">
         <!-- description card start -->
-        <div class="cards">
+        <div class="cards left">
             <div class="description-card">
                 <div class="close-btn-container"><button class="close-btn"><img src="static/img/icons/white x.svg" alt="close button"></button></div>
 
@@ -91,15 +91,29 @@
         </div>
         <!-- description card end -->
 
-        <!-- search parts starts -->
-        <form class="search-form" action="">
-            <div class="search-bar">
-                <img class="search-icon" src="static/img/icons/search-gray.png" alt="آیکون سرچ">
-                <input class="search-bar-input" type="text" placeholder="جستجو در هیبو">
+        <div class="right">
+            <!-- search parts starts -->
+            <form class="search-form" action="">
+                <div class="search-bar">
+                    <img class="search-icon" src="static/img/icons/search-gray.png" alt="آیکون سرچ">
+                    <input class="search-bar-input" type="text" placeholder="جستجو در هیبو">
+                </div>
+                <input class="search-btn" type="submit" value="جستجو">
+            </form>
+            <!-- search parts ends -->
+
+
+            <!-- filters option parts starts -->
+            <div class="filters">
+                <div class="filter-opt-container">
+                    <button class="filter-opt" title="همه">همه</button>
+                    <button class="filter-opt" title="مهندسی کامپیوتر">مهندسی کامپیوتر</button>
+                    <button class="filter-opt" title="مهندسی برق">مهندسی برق</button>
+                    <button class="filter-opt filtered" title="مهندسی صنایع">مهندسی صنایع</button>
+                </div>
             </div>
-            <input class="search-btn" type="submit" value="جستجو">
-        </form>
-        <!-- search parts ends -->
+            <!-- filters option parts ends -->
+        </div>
     </section>
     <!-- main contentsection ends -->
 
