@@ -2,3 +2,53 @@ body{
     background-color: var(--primary-color);
     margin-bottom: 70px;
 }
+
+.main-content{
+    margin-top: 1rem;
+}
+
+.description-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px  rgba(0,0,0,0.25);
+    padding: 1rem 1.2rem;
+}
+
+.close-btn-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.close-btn{
+    background-color: var(--secondary-color);
+    border: none;
+    cursor: pointer;
+    padding: 0 !important;
+    display: flex;
+    align-items: end;
+}
+
+.description{
+    margin: 0;
+    color: #fff;
+    font-family: 'Estedad';
+    text-align: center;
+}
+
+.increase-score-container{
+    display: flex;
+    font-weight: 900;
+}
+
+.increase-score{
+    font-size: 12px;
+}
+
+.arrow{
+    width: 21px;
+}
