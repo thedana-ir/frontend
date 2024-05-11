@@ -7,6 +7,7 @@ body{
     margin-top: 1rem;
 }
 
+/* description card styles */
 .description-card{
     display: flex;
     flex-direction: column;
@@ -51,4 +52,46 @@ body{
 
 .arrow{
     width: 21px;
+}
+
+
+/* status cards styles */
+.status{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.status-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid var(--secondary-color);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    width: 44%;
+}
+
+.status-title{
+    margin: 0;
+}
+
+.quiz-count{
+    font-family: 'Pinar';
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 550px){
+    .status-card{
+        width: 46%;
+    }
 }
