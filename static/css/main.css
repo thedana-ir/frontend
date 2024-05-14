@@ -1,15 +1,15 @@
 /* scrollbar */
-/* html::-webkit-scrollbar{
+::-webkit-scrollbar{
     width: 0.5rem;
 }
 
-html::-webkit-scrollbar-track{
+::-webkit-scrollbar-track{
     background: transparent;
 }
 
-html::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb{
     background: var(--gray);
-} */
+}
 
 .main-content{
     padding: 0 1rem 1rem 1rem;
