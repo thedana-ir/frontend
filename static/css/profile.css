@@ -39,6 +39,7 @@ body{
     height: 3rem;
     object-fit: cover;
     cursor: pointer;
+    border-radius: 50%;
 }
 
 .edit-prof-img-icon{
