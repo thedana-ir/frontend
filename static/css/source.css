@@ -235,6 +235,17 @@ main > #details {
     font-size: 14px;
 }
 
+.comment .text span img {
+    width: 30px;
+    vertical-align: text-top;
+    margin-top: 5px;
+}
+
+.comment .text span {
+    float: left;
+    font-size: 25px;
+}
+
 #empty-comments {
     text-align: center;
 }
