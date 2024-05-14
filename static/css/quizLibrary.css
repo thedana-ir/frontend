@@ -272,6 +272,11 @@ body{
         margin: 0;
     }
 
+    .quizes-cards{
+        height: 554px;
+        overflow-y: scroll;
+    }
+
     .quiz-card{
         width: 43%;
     }
