@@ -230,3 +230,53 @@ body{
         width: 46%;
     }
 }
+
+
+@media screen and (min-width: 650px){
+    .quizes-cards{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .quiz-card{
+        width: 43%;
+    }
+}
+
+@media screen and (min-width: 900px){
+    
+    .quiz-card{ 
+        width: 45%;
+    } 
+}
+
+@media screen and (min-width: 1200px){
+    .left{
+        width: 30%
+    } 
+
+    .right{
+        width: 60%;
+    }
+
+    .main-content{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    .search-form{
+        margin: 0;
+    }
+
+    .quiz-card{
+        width: 43%;
+    }
+
+    .status-card{
+        width: 45%;
+    }
+}
