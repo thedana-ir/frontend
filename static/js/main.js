@@ -40,4 +40,19 @@ $("#vote_modal .stars label").click(function () {
     $("#vote_modal .stars label").removeClass('active');
     $(this).addClass('active');
     $(this).parent().prevAll().find('label').addClass('active');
-})
+});
+
+
+function progress_bar() {
+    let points = $(".total-score span")[0].innerHTML;
+    points = parseInt(points);
+
+    let needed = $($(".progress-bar-container")[0]).attr('needed-points');
+    needed = parseInt(needed);
+
+    let percent = (points / needed) * 100;
+
+    return `${percent}%`;
+}
+
+$(".progress-bar").css('width', progress_bar());

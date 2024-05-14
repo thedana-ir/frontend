@@ -82,6 +82,10 @@ body{
     width: 100%;
 }
 
+.booklet-cards-container > p {
+    text-align: center;
+}
+
 .booklet-card{
     text-align: center;
     width: 95%;
@@ -93,11 +97,8 @@ body{
     border: 2px solid var(--secondary-color);
 }
 
-.booklet-card > div{
-    display: inline-block;
-}
 
-    /* details styles */
+/* details styles */
 .card-details{
     width: 55%;
     text-align: right;
@@ -147,7 +148,7 @@ body{
 }
 
 .delete-btn{
-    background-color: var(--yellow);
+    background-color: var(--red);
     color: #fff;
 }
 
@@ -281,7 +282,7 @@ body{
 }
 
 .card-btns {
-    display: none !important;
+    display: none;
     position: absolute;
     background: khaki;
     width: 120px;

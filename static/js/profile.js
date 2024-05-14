@@ -18,3 +18,24 @@ $(document).ready(function() {
     // Add event listener for window resize
     $(window).resize(handleResize);
 });
+
+function confirm_logout() {
+    let form = $("#logout-form");
+    swal({
+        title: "مطمئنی ؟",
+        text: "میخوای از حساب کاربریت خارج بشی؟",
+        icon: "error",
+        dangerMode: true,
+        buttons: {
+            cancel: "نه!",
+            catch: {
+                text: "آره، بیا بیرون!",
+                value: true,
+            }
+        },
+    }).then((value) => {
+        if (value) {
+          form.submit();
+        }
+    });
+}

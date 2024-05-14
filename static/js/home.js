@@ -1,17 +1,3 @@
-function progress_bar() {
-    let points = $("#points p span").text()
-    points = parseInt(points);
-
-    let needed = $("#points").attr('needed-points');
-    needed = parseInt(needed);
-
-    let percent = (points / needed) * 100;
-
-    let value = `radial-gradient(closest-side, var(--primary-color) 77%, transparent 80% 100%), conic-gradient(var(--green) ${percent}%, white ${percent + 10}%)`
-
-    return value;
-}
-
 $('#profile-cart #foot h6:first-child').click(function() {
     if ($('#downloads').css('display') == 'none') {
         $('#uploads').fadeOut();
@@ -29,8 +15,6 @@ $('#profile-cart #foot h6:last-child').click(function() {
     $('#profile-cart #foot h6').removeClass('selected');
     $(this).addClass('selected');
 });
-
-$("#profile-cart #points .progress-bar").css('background', progress_bar());
 
 $("#file").on("change", function (e) {
 

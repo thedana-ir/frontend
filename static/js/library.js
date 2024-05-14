@@ -35,4 +35,17 @@ $("#lib-search").keyup(function () {
             }
         })
     });
-})
+});
+
+$("button.drop").click(function () {
+    $(this).next().show();
+});
+
+window.addEventListener('click', function(e) {
+    console.log($(e.target));
+    $(".card-btns").each( function () {
+        if (this != e.target && ! this.contains(e.target) && ! $(e.target).parent().hasClass('drop')) {
+            $(this).hide();
+        }
+    });
+});
