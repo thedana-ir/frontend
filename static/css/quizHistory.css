@@ -198,6 +198,12 @@ body{
 @media screen and (min-width: 1200px){
     .quiz-history-header{
         margin-bottom: 15px;
+        justify-content: unset;
+    }
+
+    .header-txt{
+        width: 100%;
+        text-align: center;
     }
 
     .search-form{
