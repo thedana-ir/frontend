@@ -196,24 +196,15 @@ body{
 }
 
 @media screen and (min-width: 1200px){
-    .main-content{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: center;
-        align-items: flex-start;
-        gap: 25px;
+    .quiz-history-header{
+        margin-bottom: 15px;
     }
 
     .search-form{
         margin: 0;
     }
 
-    .quizes-cards{
-        height: 554px;
-        overflow-y: scroll;
-    }
-
     .quiz-card{
-        width: 43%;
+        width: 29%;
     }
 }
