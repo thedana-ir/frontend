@@ -1,0 +1,48 @@
+body{
+    background-color: var(--primary-color);
+}
+
+/* taking quiz page header*/
+.taking-quiz-header{
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    justify-content: space-between;  
+    padding: 1rem 1rem 0 1rem;
+}
+
+/* quiz progress bar styles */
+.quiz-progress-bar-container{
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    height: 20px;
+    width: 66%;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px var(--secondary-color);
+    border-radius: 3px;
+}
+
+#answer-persentage{
+    position: absolute;
+    padding-left: 1.5rem;
+    color: #fff;
+}
+
+.progress{
+    height: 20px;
+    width: 45%;
+    background-color:var(--secondary-color);
+}
+
+/* time styles */
+.time-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-container span{
+    font-family: 'Pinar';
+}

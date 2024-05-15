@@ -551,6 +551,7 @@ footer {
 #level{
     position: absolute;
     padding-left: 0.5rem;
+    color: #fff;
 }
 
 .progress-bar{
