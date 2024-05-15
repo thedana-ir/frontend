@@ -1,5 +1,6 @@
 body{
     background-color: var(--primary-color);
+    margin-bottom: 70px;
 }
 
 /* taking quiz page header*/
@@ -27,7 +28,7 @@ body{
 }
 
 .finish-quiz{
-    color: red;
+    color: var(--red);
     font-family: 'Pinar' !important;
 }
 
@@ -73,3 +74,72 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+
+/* questions-container */
+.questions-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* question card */
+.question{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid var(--secondary-color);
+
+}
+
+.q-num{
+    margin: 0 0 3px 0;
+    color: #000;
+
+}
+
+.question-txt{
+    line-height: 1.4;
+    margin: 0;
+    text-align: justify;
+}
+
+/* quiz image */
+.quiz-img-container{
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* options */
+.options-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.option{
+    display: flex;
+    justify-content: space-between;
+    background-color: #EDEDED;
+    padding: 5px 10px;
+    width: 93%;
+    border-radius: 5px;
+    
+}
+
+.opt-txt{
+    margin: 0;
+}
+
+.selected{
+    border: 2px solid var(--secondary-color);
+}
+
