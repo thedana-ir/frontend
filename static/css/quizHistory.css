@@ -123,6 +123,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 12px;
     border-radius: 10px;
     padding: 15px;
     background-color: #fff;
@@ -136,6 +137,13 @@ body{
     justify-content: center;
     align-items: center;
     gap: 5px;
+}
+
+.details-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 15px;
 }
 
 .course-name{
@@ -157,7 +165,7 @@ body{
     border-radius: 5px;
 }
 
-.participate-btn{
+.quiz-date{
     background-color: var(--secondary-color);
 }
 
@@ -167,14 +175,8 @@ body{
 
 
 
-@media screen and (min-width: 550px){
-    .status-card{
-        width: 46%;
-    }
-}
 
-
-@media screen and (min-width: 650px){
+@media screen and (min-width: 620px){
     .quizes-cards{
         flex-direction: row;
         justify-content: space-between;
@@ -194,14 +196,6 @@ body{
 }
 
 @media screen and (min-width: 1200px){
-    .left{
-        width: 30%
-    } 
-
-    .right{
-        width: 60%;
-    }
-
     .main-content{
         display: flex;
         flex-direction: row-reverse;
@@ -221,9 +215,5 @@ body{
 
     .quiz-card{
         width: 43%;
-    }
-
-    .status-card{
-        width: 45%;
     }
 }
