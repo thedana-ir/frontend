@@ -3,12 +3,32 @@ body{
 }
 
 /* taking quiz page header*/
-.taking-quiz-header{
+/* .taking-quiz-header{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+} */
+
+.header1{
     display: flex;
     flex-flow: row-reverse;
     align-items: center;
     justify-content: space-between;  
     padding: 1rem 1rem 0 1rem;
+}
+
+.header2{
+    padding: 1rem 1rem 0 1rem;
+}
+
+.quiz-name{
+    color: #000;
+    margin: 0;
+}
+
+.finish-quiz{
+    color: red;
+    font-family: 'Pinar' !important;
 }
 
 /* quiz progress bar styles */
@@ -45,4 +65,11 @@ body{
 
 .time-container span{
     font-family: 'Pinar';
+}
+
+/* details */
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

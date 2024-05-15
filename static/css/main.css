@@ -520,6 +520,8 @@ footer {
 
 
 
+
+
 /* profile image styles */
 .profile-img{
     display: flex;
@@ -575,7 +577,7 @@ footer {
 }
 
 .total-score{
-    font-family: 'Pinar';
+    font-family: 'Pinar' !important;
     font-size: 10px;
 }
 
