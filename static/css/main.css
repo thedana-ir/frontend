@@ -382,6 +382,8 @@ footer {
     position: absolute;
     z-index: 100;
     text-align: center;
+    right: 0;
+    top: 0;
 }
 
 .modal {
@@ -571,7 +573,7 @@ footer {
     font-size: 16px;
 }
 
-#total-score{
+.total-score{
     font-family: 'Pinar';
     font-size: 10px;
 }

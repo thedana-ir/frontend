@@ -39,6 +39,7 @@ body{
     height: 3rem;
     object-fit: cover;
     cursor: pointer;
+    border-radius: 50%;
 }
 
 .edit-prof-img-icon{
@@ -104,11 +105,18 @@ body{
     
 }
 
-.access-links-opt a{
+.access-links-opt a, .access-links-opt button {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Pinar' !important;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0;
 }
 
 .access-links-opt a span{
