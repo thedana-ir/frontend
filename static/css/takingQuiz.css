@@ -92,6 +92,7 @@ body{
 
 }
 
+
 .q-num{
     margin: 0 0 3px 0;
     color: #000;
@@ -221,10 +222,6 @@ body{
     }
 
     .quiz-progress-bar-container{
-        width: 50%;
-    }
-
-    .quiz-progress-bar-container{
         width: 200%;
     }
 
@@ -247,6 +244,7 @@ body{
         margin-top: 10px;
     }
 
+    /* main content responsive */
     .left{
         width: 300%;
     }
