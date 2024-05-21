@@ -173,6 +173,10 @@ body{
     .quiz-progress-bar-container{
         width: 75%;
     }
+
+    .finish-btn{
+        width: 300px;
+    }
     
 }
 
@@ -181,12 +185,20 @@ body{
     .quiz-progress-bar-container{
         width: 80%;
     }
+
+    .finish-btn{
+        width: 400px;
+    }
     
 }
 
 @media screen and (min-width: 720px){
     .quiz-progress-bar-container{
         width: 85%;
+    }
+
+    .finish-btn{
+        width: 580px;
     }
     
 }
