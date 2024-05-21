@@ -75,12 +75,10 @@ body{
 
 /* questions-container */
 .questions-container{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    display: block;
+    height: 500px;
+    overflow-x: auto;
+    
 }
 
 /* question card */
@@ -89,6 +87,7 @@ body{
     padding: 20px;
     border-radius: 10px;
     border: 2px solid var(--secondary-color);
+    margin-top: 10px;
 
 }
 

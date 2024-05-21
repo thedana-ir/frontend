@@ -42,12 +42,10 @@ body{
 
 /* questions-container */
 .questions-container{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    display: block;
+    height: 500px;
+    overflow-x: auto;
+    
 }
 
 /* question cards */
@@ -55,6 +53,7 @@ body{
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
+    margin-top: 10px;
 }
 
 .q-num{
