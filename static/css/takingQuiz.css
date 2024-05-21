@@ -3,13 +3,11 @@ body{
     margin-bottom: 70px;
 }
 
-/* taking quiz page header*/
-/* .taking-quiz-header{
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-} */
+.desktop-item{
+    display: none;
+}
 
+/* taking quiz page header*/
 .header1{
     display: flex;
     flex-flow: row-reverse;
@@ -203,7 +201,50 @@ body{
     
 }
 
+@media screen and (min-width: 900px){
+    .mobile-item{
+        display: none;
+    }
 
+    .desktop-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.35);
+        padding: 1.5rem 1rem;
+        border-bottom: solid 4px var(--secondary-color);
+        border-radius: 0 0 10px 10px;
+    }
+
+    .quiz-name{
+        width: 12%;
+    }
+
+    .quiz-progress-bar-container{
+        width: 50%;
+    }
+
+    .quiz-progress-bar-container{
+        width: 200%;
+    }
+
+    .time-container{
+        width: 42%;
+    }
+    
+    .middle-items{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 71%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .desktop-header{
+        padding: 1.5rem 6.5rem;
+    }
+}
 
 
 
