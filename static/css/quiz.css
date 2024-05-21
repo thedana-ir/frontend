@@ -261,6 +261,8 @@ body{
 }
 
 
+
+/* responsive codes */
 @media screen and (min-width: 500px){
     .remaining-quizzes-title{
         width: 85%;

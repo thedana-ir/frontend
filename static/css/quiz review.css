@@ -1,0 +1,63 @@
+body{
+    background-color: var(--primary-color);
+    margin-bottom: 70px;
+}
+/* quiz review page custom header*/
+.quiz-review-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    /* back icon */
+.quiz-review-header a{
+    padding: 1.2px 1px 1px 1px;
+    height: 33px;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.quiz-review-header img{
+    width: 2rem;
+}
+
+.quiz-score{
+    font-family: 'Pinar' !important;
+    font-weight: 900;
+    font-size: 13px;
+    width: 75%;
+    color: var(--secondary-color);
+    background-color: #fff;
+    border: 2px solid var(--secondary-color);
+    text-align: center;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+}
+
+.link{
+    color: var(--red);
+    text-decoration: underline;
+    font-family: 'Pinar' !important;
+}
+
+
+/* responsive codes */
+@media screen and (min-width: 500px) {
+    .quiz-score{
+        width: 85%;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+    .quiz-score{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .quiz-score{
+        width: 90%;
+        font-size: unset;
+    }
+}
