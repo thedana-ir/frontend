@@ -144,6 +144,30 @@ body{
 }
 
 
+/* finish quiz */
+.finish-quiz-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.remaining-q{
+    color: var(--red);
+}
+
+.finish-btn{
+    color: var(--red);
+    border: 4px solid var(--red);
+    font-family: 'Pinar' !important;
+    background-color: #fff; 
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 240px;
+    text-align: center;
+}
+
+
 
 @media screen and (min-width: 420px){
     .quiz-progress-bar-container{
