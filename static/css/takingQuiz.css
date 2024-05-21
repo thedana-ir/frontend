@@ -143,3 +143,31 @@ body{
     border: 2px solid var(--secondary-color);
 }
 
+
+
+@media screen and (min-width: 420px){
+    .quiz-progress-bar-container{
+        width: 75%;
+    }
+    
+}
+
+
+@media screen and (min-width: 530px){
+    .quiz-progress-bar-container{
+        width: 80%;
+    }
+    
+}
+
+@media screen and (min-width: 720px){
+    .quiz-progress-bar-container{
+        width: 85%;
+    }
+    
+}
+
+
+
+
+
