@@ -520,6 +520,8 @@ footer {
 
 
 
+
+
 /* profile image styles */
 .profile-img{
     display: flex;
@@ -551,6 +553,7 @@ footer {
 #level{
     position: absolute;
     padding-left: 0.5rem;
+    color: #fff;
 }
 
 .progress-bar{
@@ -574,7 +577,7 @@ footer {
 }
 
 .total-score{
-    font-family: 'Pinar';
+    font-family: 'Pinar' !important;
     font-size: 10px;
 }
 
