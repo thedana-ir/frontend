@@ -1,4 +1,5 @@
-const BASE_URL = "https://" + window.location.host + "/api/v1/";
+
+const BASE_URL = window.location.protocol + "//" + window.location.host + "/api/v1/";
 
 
 function select_suggest(input) {

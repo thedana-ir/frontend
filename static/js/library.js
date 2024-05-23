@@ -39,13 +39,17 @@ $("#lib-search").keyup(function () {
 
 $("button.drop").click(function () {
     $(this).next().show();
+    $(this).prev().addClass('blur');
+    $(this).css("opacity", "1");
 });
 
 window.addEventListener('click', function(e) {
-    console.log($(e.target));
     $(".card-btns").each( function () {
         if (this != e.target && ! this.contains(e.target) && ! $(e.target).parent().hasClass('drop')) {
             $(this).hide();
+            $(this).parent().find('.card-details').removeClass('blur');
+            $(this).parent().find('.drop').css('opacity', "0.5");
+
         }
     });
 });
