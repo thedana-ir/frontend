@@ -608,3 +608,7 @@ footer {
     width: 40px;
     height: 40px;
 }
+
+.blur {
+    filter: blur(2px);
+}
