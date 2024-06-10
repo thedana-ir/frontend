@@ -1,0 +1,60 @@
+/* FONTS */
+@font-face { 
+    font-family: 'Pinar';
+    src: url('Pinar-DS1-FD.woff') format('woff');
+}
+body {
+    margin: 0;
+    text-align: center;
+    background: #FDE74C;
+    font-family: 'Pinar';
+}
+
+.form-container {
+    text-align: center;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+    width: 200px;
+    margin-top: 20px;
+}
+
+form {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+input {
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+button {
+    display: inline-block;
+    width: 100px;
+    border: none;
+    background: #008148;
+    color: white;
+    font-family: 'Pinar';
+    font-size: 18px;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 620px) {
+    body {
+      zoom: 0.5;
+    }
+}
+  
